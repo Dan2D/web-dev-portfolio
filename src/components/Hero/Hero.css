@@ -1,0 +1,97 @@
+.hero-container {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../../images/Mt.Rainier-night.jpg');
+    background-position: top right;
+    background-repeat: no-repeat;
+    
+}
+
+button {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+svg {
+    position: absolute;
+    z-index: 1;
+    bottom: 0%;
+    left: 0%;
+    z-index: 0;
+}
+
+.hero__intro {
+    position: absolute;
+    color: #F3E9D2;
+    top: 20%;
+    left: 10%;
+    z-index: 1;
+    text-align: left;
+}
+
+.trail {
+    position: relative;
+}
+
+.trail__flag {
+    position: absolute;
+    top: 41%;
+    right: 20%;
+    z-index: 1;
+}
+
+.trail__btn {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.trail__btn img {
+    height: 20px;
+    width: 20px;
+}
+
+.trail-btn:hover,
+.trail-btn:focus button {
+    opacity: 1;
+}
+
+.trail__label {
+    position: absolute;
+    font-size: 16px;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.trail__btn--connect {
+    bottom: 10%;
+    left: 10%;
+}
+
+.trail__label--connect {
+    bottom: 5%;
+    left: 15%;
+}
+
+.trail__btn--about {
+    bottom: 30%;
+    right: 10%;
+}
+
+.trail__label--about {
+    bottom: 25%;
+    right: 5%;
+}
+
+.trail__btn--projects {
+    bottom: 45%;
+    right: 35%;
+}
+
+.trail__label--projects {
+    bottom: 43%;
+    left: 65%;
+}

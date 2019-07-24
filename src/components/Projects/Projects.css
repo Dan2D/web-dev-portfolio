@@ -1,0 +1,156 @@
+
+.projects-container {
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sec-ttl {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 25px;
+    align-self: flex-start;
+}
+
+.sec-ttl__title {
+    font-size: 35px;
+    color: black;
+    line-height: normal;
+    margin: 0 10px;
+}
+
+.sec-ttl__icon {
+    height: 45px;
+}
+
+.projCard-container {
+    position: relative;
+    height: 70vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-icon {
+    position: absolute;
+    top: -15px;
+    right:-15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-icon__img {
+    height: 30px;
+    width: 30px;
+}
+
+.card-icon--mystery {
+    background: #F9E278;
+}
+
+.proj-view {
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.proj-view__desktop {
+    position: relative;
+    z-index: 1;
+}
+
+.desktop-img {
+    position: absolute;
+    top: 11px;
+    left: 9px;
+    z-index: 0;
+}
+
+.proj-view__mobile {
+    position: absolute;
+    bottom: -10px;
+    right: -15px;
+    z-index: 2;
+}
+
+.mobile-img {
+    position: absolute;
+    bottom: 4px;
+    right:-10px;
+    z-index: 1;
+}
+
+.info-sec *{
+    color: black;
+}
+
+.info-sec {
+    align-self: flex-start;
+    width: 100%;
+}
+
+.info-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.info-header__title {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.info-header__lnks {
+    margin: 2px 5px;
+}
+
+.proj-info-container {
+    display:flex;
+}
+
+.proj-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.proj-info h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.proj-info--left,
+.proj-info--right {
+    width: 50%;
+}
+
+.proj-icon {
+    display: inline-block;
+    margin: 2px 5px;
+}
+
+.proj-icon img {
+    display: block;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+}
+
+.proj-icon p {
+    font-size: 12px;
+    margin: 0;
+}

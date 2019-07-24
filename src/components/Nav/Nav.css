@@ -1,0 +1,49 @@
+
+.nav-container {
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    background: #114B5F;
+    
+}
+
+.nav-bar__title{
+    font-family: 'Khula';
+    font-weight: 300;
+    color: white;
+    width: 50px;
+    line-height: 15px;
+    text-align: left;
+}
+
+.nav-bar__btns {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+.nav-bar__btns button {
+    cursor: pointer;
+    color: black;
+    line-height: 5px;
+}
+
+.nav-bar__btns button:active,
+.nav-bar__btns button:focus  {
+    color: white;
+}
+
+/* .nav-bar__links {
+    align-self: center;
+}
+
+.nav-bar__links a img {
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+} */
