@@ -3,7 +3,7 @@
     width:100vw;
     display: flex;
     flex-direction: column;
-    background: #8ca7b0;
+    background: #ccc9ab;
 }
 
 .sec-ttl--connect {
@@ -43,8 +43,9 @@
 
 .form-submit {
     font-family: Khula;
+    color: black;
     margin-top: 10px;
-    background: #60818c;
+    background: #F3E9D2;
     padding: 3px;
     border-radius: 3px;
 }
