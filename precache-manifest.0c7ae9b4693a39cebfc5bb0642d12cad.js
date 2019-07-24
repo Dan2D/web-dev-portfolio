@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "61ca6b84841820991e7dd2396d7ed240",
+    "revision": "57f95a60921e90b8f630e1ff3a231ff4",
     "url": "/web-dev-portfolio/index.html"
   },
   {
-    "revision": "13f702dda01e421fa37b",
-    "url": "/web-dev-portfolio/static/css/main.fa11929d.chunk.css"
+    "revision": "6252e2be142bedfff766",
+    "url": "/web-dev-portfolio/static/css/main.a770cdd5.chunk.css"
   },
   {
-    "revision": "5e5483caa068012d2338",
-    "url": "/web-dev-portfolio/static/js/2.2326c5cf.chunk.js"
+    "revision": "fc3978dc9581e2d67751",
+    "url": "/web-dev-portfolio/static/js/2.de9dce77.chunk.js"
   },
   {
-    "revision": "13f702dda01e421fa37b",
-    "url": "/web-dev-portfolio/static/js/main.fda96337.chunk.js"
+    "revision": "6252e2be142bedfff766",
+    "url": "/web-dev-portfolio/static/js/main.b5d081b7.chunk.js"
   },
   {
     "revision": "7b3304ee80c765404cee",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/web-dev-portfolio/static/media/Git_Logo.0992cdbd.png"
   },
   {
+    "revision": "d0cc66e34278093d56191e8b9f7611b3",
+    "url": "/web-dev-portfolio/static/media/Github_Logo.d0cc66e3.png"
+  },
+  {
     "revision": "384d1e8c3c8dcfee10ab0b980f8075cd",
     "url": "/web-dev-portfolio/static/media/Javascript_Logo.384d1e8c.png"
   },
@@ -54,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1e35bfe4d8ec1a775eb30f5428274e09",
     "url": "/web-dev-portfolio/static/media/Khula-Light.1e35bfe4.ttf"
+  },
+  {
+    "revision": "b7240ae636acf8060af3c147914beb26",
+    "url": "/web-dev-portfolio/static/media/Linkedin_Logo.b7240ae6.png"
   },
   {
     "revision": "8de2e00caf4243bc899385bfaa78e01a",
@@ -96,8 +104,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/web-dev-portfolio/static/media/books-desktop.11d7dc7b.png"
   },
   {
+    "revision": "ea160d7c8b6e48c09d1dd9a3a2901c5d",
+    "url": "/web-dev-portfolio/static/media/climber.ea160d7c.png"
+  },
+  {
     "revision": "85fceff33b5957efe4080d5b606638b9",
     "url": "/web-dev-portfolio/static/media/jQuery_Logo.85fceff3.png"
+  },
+  {
+    "revision": "9e74f1d9e6df5774f41da523fcefd229",
+    "url": "/web-dev-portfolio/static/media/journal-book.9e74f1d9.png"
   },
   {
     "revision": "623ee20f8498b32744713c38cdf97706",
