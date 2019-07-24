@@ -1,6 +1,5 @@
 
 .projects-container {
-    height: 100vh;
     width:100vw;
     display: flex;
     flex-direction: column;
@@ -11,13 +10,18 @@
     display: flex;
     justify-content: flex-start;
     align-content: center;
-    margin-top: 25px;
+    margin-top: 10px;
     align-self: flex-start;
+    padding: 5px 10px 0 5px;
+    border-radius: 0 25px 25px 0;
+}
+
+.sec-ttl--projects {
+    background: #1A936F;
 }
 
 .sec-ttl__title {
     font-size: 35px;
-    color: black;
     line-height: normal;
     margin: 0 10px;
 }
@@ -29,7 +33,7 @@
 .proj-cards {
     margin-left: 3vw;
 }
-
+/* --------PROJ CARDS------------ */
 .projCard-container {
     position: relative;
     max-height: auto;
@@ -41,7 +45,7 @@
     align-items: center;
     background: white;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px lightgray;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 }
 
 .card-icon {
@@ -115,7 +119,8 @@
     width: 100%;
 }
 
-.info-header {
+.info-header,
+.proj-info-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -127,21 +132,22 @@
 }
 
 .info-header__lnks {
+    background: #114B5F;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
     margin: 2px 5px;
-}
-
-.proj-info-container {
-    display:flex;
 }
 
 .proj-info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 10px;
 }
 
 .proj-info h3 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -149,16 +155,17 @@
     margin: 0;
 }
 
-.proj-info--left {
-    width: 40%;
+.proj-info--text p {
+    margin: 0 0 0 10px;
 }
 
-.proj-info--right {
-    width: 60%;
-    margin-top: -25px;
+.proj-info__details {
+    margin: 0;
+    padding-left: 20px;
 }
 
-.left__title {
+.tools__title,
+.text__title {
     margin: 0 0 0 10px;
 }
 
@@ -187,11 +194,3 @@
     line-height: 10px;
 }
 
-.right__title {
-    margin: 0;
-}
-
-.proj-info__details {
-    margin: 0;
-    padding-left: 10px;
-}

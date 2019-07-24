@@ -31,8 +31,8 @@ class Hero extends Component {
             <div className="hero-container" id="HOME">
                 <h1 className="hero__intro">Hi, I'm Dan <br/> {this.state.descriptor}</h1>
                 <div className="trail">
-                    <img className="trail__flag" src={require('../../images/Flag.png')} alt="flag"/>
                     <img className="trail__img" src={require('../../images/Mt.Rainier-night.jpg')} alt="mt. rainier" />
+                    <img className="trail__flag" src={require('../../images/Flag.png')} alt="flag"/>
                     <button className="trail__btn trail__btn--connect"><img src={require("../../images/Ellipse.svg")} alt="circle"/></button>
                     <p className="trail__label trail__label--connect">Connect</p>
                     <button className="trail__btn trail__btn--about"><img src={require("../../images/Ellipse.svg")} alt="circle"/></button>

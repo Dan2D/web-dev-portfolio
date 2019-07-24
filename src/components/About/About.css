@@ -1,0 +1,83 @@
+.about-container,
+.about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #99b78e;
+}
+
+
+.sec-ttl--about {
+    background: #88D498;
+}
+
+.about-content {
+    margin:0 10px;
+}
+
+.about-text {
+    margin: 10% 0 20% 0;
+}
+
+.about-text__blurb {
+    margin: 0;
+}
+
+.about-text__sig {
+    margin: 0;
+}
+
+.skill-cards {
+    position: relative;
+}
+
+.skills-card {
+    background: #f5fff1;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.skills-card h3, .skills-card p {
+    color: black;
+}
+
+.skills-card__ttl {
+    font-weight: 700;
+    margin: 0;
+}
+
+.skills-card--design {
+    display: inline-block;
+    position: absolute;
+    top: -30%;
+    right: -3%;
+    background: #88D498;
+}
+
+.about-links {
+    margin-top: 5%;
+    align-self: flex-end;
+}
+
+.link-icon {
+    display: inline-block;
+    margin: 2px 5px;
+    text-decoration: none;
+}
+
+.link-icon img {
+    display: block;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+}
+
+.link-icon p {
+    font-size: 12px;
+    width: 55px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 10px;
+}

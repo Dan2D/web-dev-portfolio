@@ -1,4 +1,5 @@
 import React from 'react';
+import SectionTtl from '../SectionTtl';
 import ProjCard from './Card/ProjCard';
 import {projTxt} from './ProjTxt';
 import './Projects.css'
@@ -6,10 +7,7 @@ import './Projects.css'
 function Projects(props) {
     return (
         <div className="projects-container" id="projects">
-            <div className="sec-ttl">
-                <h1 className="sec-ttl__title">PROJECTS</h1>
-                <img className="sec-ttl__icon" src={require('../../images/icons/backpack.png')} alt="backpack"/>
-            </div>
+            <SectionTtl name="projects" title="PROJECTS" icon="backpack"/>
             <div className="proj-cards">
                 <ProjCard 
                 title="1920's Murder Mystery Party" 

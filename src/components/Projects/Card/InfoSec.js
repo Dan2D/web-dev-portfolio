@@ -1,7 +1,7 @@
 import React from 'react'
 
 function InfoSec (props) {
-    const mapIcons = (arr) => {
+   const mapIcons = (arr) => {
         return arr.map(icon => {
             return (
                 <div className="proj-icon" key={icon}>
@@ -30,29 +30,28 @@ function InfoSec (props) {
                 </div>
             </div>
             <div className="proj-info-container">
-                <div className="proj-info proj-info--left">
-                    <h3 className="left__title">Tools</h3>
-                    <div className="icon-group">
-                        {mapIcons(props.tools)}
-                    </div>
-                    <h3 className="left__title">Design</h3>
-                    <div className="icon-group">
-                        {mapIcons(props.design)}
-                    </div>
-                </div>
-                <div className="proj-info proj-info--right">
+                <div className="proj-info proj-info--text">
                     <div>  
-                        <h3 className="right__title">Purpose</h3>
+                        <h3 className="text__title">Purpose</h3>
                         <p>{props.purpose}</p>
                     </div>
                     <div>
-                        <h3 className="right__title">Project Details</h3>
+                        <h3 className="text__title">Project Details</h3>
                         <ul className="proj-info__details">
                             {projDetailsGen(props.notes)}
                         </ul>
                     </div>
                 </div>
-
+                <div className="proj-info proj-info--tools">
+                    <h3 className="tools__title">Tools</h3>
+                    <div className="icon-group">
+                        {mapIcons(props.tools)}
+                    </div>
+                    <h3 className="tools__title">Design</h3>
+                    <div className="icon-group">
+                        {mapIcons(props.design)}
+                    </div>
+                </div>
             </div>
         </div>
     )

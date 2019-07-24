@@ -1,0 +1,50 @@
+
+.contact-container {
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    background: #8ca7b0;
+}
+
+.sec-ttl--connect {
+    background: #F3E9D2;
+}
+
+.contact-form {
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.form-group {
+
+}
+
+.form-label {
+    display: block;
+}
+
+.form-input {
+    font-family: Khula;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.form-input--name,
+.form-input--email {
+    width: 75%;
+}
+
+.form-input--msg {
+    width:90%;
+    min-height: 100px;
+}
+
+.form-submit {
+    font-family: Khula;
+    margin-top: 10px;
+    background: #60818c;
+    padding: 3px;
+    border-radius: 3px;
+}

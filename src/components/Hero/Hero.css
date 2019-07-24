@@ -1,7 +1,6 @@
 .hero-container {
     position: relative;
     width: 100vw;
-    max-height: 100vh;
     margin-bottom: 10px;
     
 }
@@ -23,7 +22,7 @@ svg {
 .hero__intro {
     position: absolute;
     color: #F3E9D2;
-    top: 20%;
+    top: 10%;
     left: 10%;
     z-index: 1;
     text-align: left;
@@ -33,14 +32,18 @@ svg {
     position: relative;
 }
 
-.trail_img {
-    width: 100vw;
+.trail__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-top: 0;
 }
 
 .trail__flag {
     position: absolute;
-    top: 36.5%;
-    right: 20%;
+    top: 37%;
+    right: 27%;
     z-index: 1;
 }
 
