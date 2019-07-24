@@ -1,12 +1,15 @@
 
 .nav-container {
-
+    position:fixed;
+    top:0;
+    z-index: 5;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
     width: 100vw;
+    height: 8vh;
     background: #114B5F;
     
 }
@@ -25,16 +28,19 @@
     display: flex;
     justify-content: space-between;
     align-self: flex-end;
+    margin-right: 10px;
 }
 
-.nav-bar__btns button {
+.nav-bar__btns a {
+    font-size: 16px;
     cursor: pointer;
     color: black;
     line-height: 5px;
+    text-decoration: none;
 }
 
-.nav-bar__btns button:active,
-.nav-bar__btns button:focus  {
+.nav-bar__btns a:active,
+.nav-bar__btns a:focus  {
     color: white;
 }
 

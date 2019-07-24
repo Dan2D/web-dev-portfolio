@@ -10,7 +10,9 @@ function App() {
     <div className="App">
      {/* Use Material UI */}
      <CssBaseline />
+     <div style={{height: "8vh"}}></div>
      <Nav />
+     
      <Hero />
      <Projects />
     </div>

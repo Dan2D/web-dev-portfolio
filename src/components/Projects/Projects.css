@@ -5,7 +5,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
 }
 
 .sec-ttl {
@@ -27,14 +26,21 @@
     height: 45px;
 }
 
+.proj-cards {
+    margin-left: 3vw;
+}
+
 .projCard-container {
     position: relative;
-    height: 70vh;
-    width: 85vw;
+    max-height: auto;
+    width: 90vw;
+    margin: 30px 0;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: white;
+    border-radius: 5px;
     box-shadow: 5px 5px 10px lightgray;
 }
 
@@ -58,6 +64,14 @@
 
 .card-icon--mystery {
     background: #F9E278;
+}
+
+.card-icon--books {
+    background: #E4CF96;
+}
+
+.card-icon--run {
+    background: #7F669F;
 }
 
 .proj-view {
@@ -124,18 +138,33 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-evenly;
 }
 
 .proj-info h3 {
     font-size: 14px;
     font-weight: 700;
-    margin: 5px 0;
 }
 
-.proj-info--left,
+.proj-info p {
+    margin: 0;
+}
+
+.proj-info--left {
+    width: 40%;
+}
+
 .proj-info--right {
-    width: 50%;
+    width: 60%;
+    margin-top: -25px;
+}
+
+.left__title {
+    margin: 0 0 0 10px;
+}
+
+.icon-group {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .proj-icon {
@@ -152,5 +181,17 @@
 
 .proj-icon p {
     font-size: 12px;
+    width: 55px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 10px;
+}
+
+.right__title {
     margin: 0;
+}
+
+.proj-info__details {
+    margin: 0;
+    padding-left: 10px;
 }

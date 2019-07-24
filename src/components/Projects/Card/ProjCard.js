@@ -15,7 +15,6 @@ function ProjCard(props) {
             purpose={props.purpose} 
             notes={props.notes}
             />
-
         </div>
     )
 }

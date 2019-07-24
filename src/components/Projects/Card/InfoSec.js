@@ -13,9 +13,9 @@ function InfoSec (props) {
     }
 
     const projDetailsGen = (noteArr) => {
-        noteArr.map(note => {
+        return noteArr.map(note => {
             return (
-                <li>note</li>
+                <li>{note}</li>
             )
         })
     }
@@ -31,22 +31,22 @@ function InfoSec (props) {
             </div>
             <div className="proj-info-container">
                 <div className="proj-info proj-info--left">
-                    <h3>Languages / Frameworks</h3>
-                    <div>
+                    <h3 className="left__title">Tools</h3>
+                    <div className="icon-group">
                         {mapIcons(props.tools)}
                     </div>
-                    <h3>Design</h3>
-                    <div>
+                    <h3 className="left__title">Design</h3>
+                    <div className="icon-group">
                         {mapIcons(props.design)}
                     </div>
                 </div>
                 <div className="proj-info proj-info--right">
                     <div>  
-                        <h3>Purpose</h3>
+                        <h3 className="right__title">Purpose</h3>
                         <p>{props.purpose}</p>
                     </div>
                     <div>
-                        <h3>Project Details</h3>
+                        <h3 className="right__title">Project Details</h3>
                         <ul className="proj-info__details">
                             {projDetailsGen(props.notes)}
                         </ul>

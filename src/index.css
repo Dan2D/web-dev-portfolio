@@ -3,6 +3,11 @@
   src: url('./fonts/Khula-Light.ttf'),
        url('./fonts/Khula-Bold.ttf') format('ttf');
 }
+
+body {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: Khula, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

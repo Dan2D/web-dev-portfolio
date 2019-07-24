@@ -1,10 +1,8 @@
 .hero-container {
     position: relative;
     width: 100vw;
-    height: 90vh;
-    background-image: linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../../images/Mt.Rainier-night.jpg');
-    background-position: top right;
-    background-repeat: no-repeat;
+    max-height: 100vh;
+    margin-bottom: 10px;
     
 }
 
@@ -35,9 +33,13 @@ svg {
     position: relative;
 }
 
+.trail_img {
+    width: 100vw;
+}
+
 .trail__flag {
     position: absolute;
-    top: 41%;
+    top: 36.5%;
     right: 20%;
     z-index: 1;
 }
