@@ -1,9 +1,7 @@
 .hero-container {
     padding-top: 8vh;
     position: relative;
-    width: 100vw;
-    margin-bottom: 10px;
-    
+    width: 100vw;   
 }
 
 button {
@@ -65,7 +63,6 @@ svg {
 .trail__btn--about:focus~p.trail__label--about,
 .trail__btn--projects:focus~p.trail__label--projects{
     opacity: 1;
-
 }
 
 .trail__label {
@@ -117,7 +114,7 @@ svg {
 }
 
 /* Small devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .hero__intro {
         font-size: 48px;
     }
@@ -127,6 +124,17 @@ svg {
         top: 43%;
         right: 25%;
     }
+
+    .trail__btn:hover {
+        background: white;
+        box-shadow: 1px 1px 5px rgb(219, 219, 219), -1px 1px 5px rgb(219, 219, 219), 1px -1px 5px rgb(219, 219, 219), -1px -1px 5px rgb(219, 219, 219);
+    }
+
+    .trail__btn--connect:hover~p.trail__label--connect,
+    .trail__btn--about:hover~p.trail__label--about,
+    .trail__btn--projects:hover~p.trail__label--projects{
+        opacity: 1;
+}
 
     .trail__label {
         font-size: 24px;
@@ -164,12 +172,12 @@ svg {
     
 }
 /* tablets/desktops and up ----------- */
-@media screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     .hero__intro {
         font-size: 64px;
     }
 }
 /* large desktops and up ----------- */
-@media screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     
 }

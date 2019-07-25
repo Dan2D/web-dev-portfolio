@@ -6,7 +6,8 @@ import './Projects.css'
 
 function Projects(props) {
     return (
-        <div className="projects-container" id="projects">
+        <div className="projects-container" >
+            <div className="anchor-pt" id="projects"/>
             <SectionTtl name="projects" title="PROJECTS" icon="backpack"/>
             <div className="proj-cards">
                 <ProjCard 

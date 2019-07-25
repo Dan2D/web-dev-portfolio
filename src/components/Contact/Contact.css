@@ -1,10 +1,10 @@
 
 .contact-container {
+    position: relative;
     width:100vw;
     display: flex;
     flex-direction: column;
     background: #ccc9ab;
-        margin-top: -8vh;
 }
 
 .sec-ttl--connect {
@@ -14,10 +14,6 @@
 .contact-form {
     margin-top: 5%;
     padding: 10px;
-}
-
-.form-group {
-
 }
 
 .form-label {

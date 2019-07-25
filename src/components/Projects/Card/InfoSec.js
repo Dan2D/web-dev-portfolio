@@ -5,7 +5,7 @@ function InfoSec (props) {
         return arr.map(icon => {
             return (
                 <div className="proj-icon" key={icon}>
-                    <img src={require(`../../../images/icons/skills/${icon}_Logo.png`)} alt={icon} />
+                    <img src={require(`../../../images/icons/skills/${icon}_Logo${props.lg}.png`)} alt={icon} />
                     <p>{icon}</p>
                 </div>
             )
@@ -24,18 +24,18 @@ function InfoSec (props) {
         <div className="info-sec">
             <div className="info-header">
                 <h2 className="info-header__title">{props.title}</h2>
-                <div>
-                    <a className="info-header__lnks" href={props.liveSite}>Live Site</a>
-                    <a className="info-header__lnks" href={props.github}>Github</a>
+                <div className="info-header__lnks">
+                    <a className="info-lnks info-lnks--live" href={props.liveSite}>LIVE</a>
+                    <a className="info-lnks info-lnks--github" href={props.github}>GITHUB</a>
                 </div>
             </div>
             <div className="proj-info-container">
                 <div className="proj-info proj-info--text">
-                    <div>  
+                    <div className="text-container">  
                         <h3 className="text__title">Purpose</h3>
                         <p>{props.purpose}</p>
                     </div>
-                    <div>
+                    <div className="text-container">
                         <h3 className="text__title">Project Details</h3>
                         <ul className="proj-info__details">
                             {projDetailsGen(props.notes)}
