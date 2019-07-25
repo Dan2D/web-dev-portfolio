@@ -33,7 +33,7 @@ function Nav() {
     const scrollTo = (e) => {
       e.preventDefault();
         let id = e.target.getAttribute('href');
-        document.querySelector(id).scrollIntoView({block: 'start', behavior: 'smooth'})
+        document.querySelector(id).scrollIntoView({block: 'start', behavior: 'smooth'});
     }
   return (
     <div className="nav-container">

@@ -24,7 +24,7 @@ svg {
 .hero__intro {
     position: absolute;
     color: #F3E9D2;
-    top: 10%;
+    top:21%;
     left: 10%;
     z-index: 1;
     text-align: left;
@@ -44,7 +44,7 @@ svg {
 
 .trail__flag {
     position: absolute;
-    top: 37%;
+    top: 45%;
     right: 27%;
     z-index: 1;
 }
@@ -52,18 +52,19 @@ svg {
 .trail__btn {
     position: absolute;
     cursor: pointer;
-    opacity: 0.9;
+    background: rgb(163, 158, 146);
+    padding: 12px;
+    border-radius: 50%;
     z-index: 1;
 }
 
-.trail__btn img {
-    height: 20px;
-    width: 20px;
+.trail__btn:focus {
+    animation: blink-light 2s linear infinite;
 }
 
-.trail-btn:hover,
-.trail-btn:focus button {
+.trail__btn:focus~p {
     opacity: 1;
+
 }
 
 .trail__label {
@@ -73,32 +74,43 @@ svg {
     z-index: 1;
 }
 
-.trail__btn--connect {
+.trail__btn--connect {    
     bottom: 10%;
     left: 10%;
 }
 
 .trail__label--connect {
-    bottom: 5%;
-    left: 15%;
+    bottom: 11%;
+    left: 7%;
 }
 
 .trail__btn--about {
     bottom: 30%;
-    right: 10%;
+    right: 13%;
 }
 
 .trail__label--about {
-    bottom: 25%;
-    right: 5%;
+    bottom: 30%;
+    right: 7%;
 }
 
 .trail__btn--projects {
     bottom: 45%;
-    right: 35%;
+    right: 36%;
 }
 
 .trail__label--projects {
     bottom: 43%;
     left: 65%;
+}
+
+@keyframes blink-light {
+    0%, 20%, 50%, 71%, 100% {
+        background:rgb(163, 158, 146);
+        box-shadow: none;
+    }
+    1%, 10%, 51%, 61% {
+        background: white;
+        box-shadow: 1px 1px 5px rgb(219, 219, 219), -1px 1px 5px rgb(219, 219, 219), 1px -1px 5px rgb(219, 219, 219), -1px -1px 5px rgb(219, 219, 219);
+    }
 }
