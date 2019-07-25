@@ -4,7 +4,7 @@ export const projTxt = {
         notes: ["Responsive Static Site", "Animated Page Transitions and sub-menu", "Character Modal for password entry which reveals secret info"]
     },
     books: {
-        purpos: "Create a site to help readers to find new books they’re interested in and explore new titles and authors.",
+        purpose: "Create a site to help readers to find new books they’re interested in and explore new titles and authors.",
         notes: ["API Interface with NYT Best sellers and GoodReads", "Searchable authors and titles", "Genre specific NYT Best Seller lists searchable by date"]
     },
     run: {

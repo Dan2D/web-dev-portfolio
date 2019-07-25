@@ -1,6 +1,5 @@
 .hero-container {
     padding-top: 8vh;
-    margin-top: -8vh;
     position: relative;
     width: 100vw;
     margin-bottom: 10px;
@@ -59,10 +58,12 @@ svg {
 }
 
 .trail__btn:focus {
-    animation: blink-light 2s linear infinite;
+    animation: blink-light 2s linear;
 }
 
-.trail__btn:focus~p {
+.trail__btn--connect:focus~p.trail__label--connect,
+.trail__btn--about:focus~p.trail__label--about,
+.trail__btn--projects:focus~p.trail__label--projects{
     opacity: 1;
 
 }
@@ -113,4 +114,62 @@ svg {
         background: white;
         box-shadow: 1px 1px 5px rgb(219, 219, 219), -1px 1px 5px rgb(219, 219, 219), 1px -1px 5px rgb(219, 219, 219), -1px -1px 5px rgb(219, 219, 219);
     }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    .hero__intro {
+        font-size: 48px;
+    }
+
+    .trail__flag {
+        height: 45px;
+        top: 43%;
+        right: 25%;
+    }
+
+    .trail__label {
+        font-size: 24px;
+    }
+
+    .trail__btn--connect {    
+        bottom: 11%;
+        left: 38%;
+    }
+    
+    .trail__label--connect {
+        bottom: 5%;
+        left: 42%;
+    }
+    
+    .trail__btn--about {
+        bottom: 26%;
+        right: 17%;
+    }
+    
+    .trail__label--about {
+        bottom: 21%;
+        right: 8%;
+    }
+
+    .trail__btn--projects {
+        bottom: 41%;
+        right: 30%;
+    }
+    
+    .trail__label--projects {
+        bottom: 39%;
+        left: 71%;
+    }
+    
+}
+/* tablets/desktops and up ----------- */
+@media screen and (min-width: 992px) {
+    .hero__intro {
+        font-size: 64px;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    
 }

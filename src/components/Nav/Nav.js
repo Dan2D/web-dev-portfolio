@@ -15,7 +15,7 @@ function Nav() {
         let contact = $('#contact').offset();
         $(window).scroll(function() {
             let winPos = $(this).scrollTop() + navBarHt;
-            if (home < winPos && projects.top > winPos && !$('.nav-bar__btns a[href="#home"]').hasClass('active')){
+            if (projects.top > winPos && !$('.nav-bar__btns a[href="#home"]').hasClass('active')){
               $('.nav-bar__btns a').removeClass('active');
               $(`.nav-bar__btns a[href="#home"]`).addClass('active');
             } 

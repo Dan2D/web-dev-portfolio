@@ -15,7 +15,6 @@ function App() {
   }, [])
   return (
     <div className="App">
-     <div style={{height: "8vh"}}></div>
      <Nav />
      <Hero />
      <Projects />
