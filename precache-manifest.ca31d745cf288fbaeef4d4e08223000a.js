@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e80d434b3f3d19824c09d15c84823c64",
+    "revision": "2cd359e2adff9f753bc602cbf8b5fd3b",
     "url": "/web-dev-portfolio/index.html"
   },
   {
-    "revision": "b69bb1ea8c564adf9d2c",
-    "url": "/web-dev-portfolio/static/css/main.ad7d5661.chunk.css"
+    "revision": "3fd45a5a79455b07f346",
+    "url": "/web-dev-portfolio/static/css/main.737c29bf.chunk.css"
   },
   {
-    "revision": "f89966378a9dabef31f5",
-    "url": "/web-dev-portfolio/static/js/2.f624d1e3.chunk.js"
+    "revision": "9e37dccdf130369d689b",
+    "url": "/web-dev-portfolio/static/js/2.6f9cad57.chunk.js"
   },
   {
-    "revision": "b69bb1ea8c564adf9d2c",
-    "url": "/web-dev-portfolio/static/js/main.d6798ade.chunk.js"
+    "revision": "3fd45a5a79455b07f346",
+    "url": "/web-dev-portfolio/static/js/main.585d60b6.chunk.js"
   },
   {
     "revision": "7b3304ee80c765404cee",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "07270c13412737933c6f3468d97618ad",
     "url": "/web-dev-portfolio/static/media/CSS3_Logo.07270c13.png"
-  },
-  {
-    "revision": "99bc1b4f379b417e3f7777d066b68cfa",
-    "url": "/web-dev-portfolio/static/media/Ellipse.99bc1b4f.svg"
   },
   {
     "revision": "98ff4822d03ab0f5746653f56441d38e",
@@ -68,10 +64,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/web-dev-portfolio/static/media/MongoDB_Logo.8de2e00c.png"
   },
   {
-    "revision": "c0da5cca5bb47bcd789f536be99aa4a5",
-    "url": "/web-dev-portfolio/static/media/Mt.Rainier-night.c0da5cca.jpg"
-  },
-  {
     "revision": "36700bee9a1831f2691165d291d62d78",
     "url": "/web-dev-portfolio/static/media/Nodejs_Logo.36700bee.png"
   },
@@ -106,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ea160d7c8b6e48c09d1dd9a3a2901c5d",
     "url": "/web-dev-portfolio/static/media/climber.ea160d7c.png"
+  },
+  {
+    "revision": "1b0b246bf0a108e14986aeba0284d0a2",
+    "url": "/web-dev-portfolio/static/media/hero-bg.1b0b246b.jpg"
   },
   {
     "revision": "85fceff33b5957efe4080d5b606638b9",
