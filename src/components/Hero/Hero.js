@@ -1,4 +1,5 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import smoothscroll from 'smoothscroll-polyfill';
 import './Hero.css';
 
 class Hero extends Component {
@@ -11,14 +12,13 @@ class Hero extends Component {
     }
 
     componentDidMount(){
+        smoothscroll.polyfill();
         this.descChange();
     }
 
      scrollTo = (e) => {
-         console.log(e.currentTarget)
         e.preventDefault();
           let id = e.currentTarget.getAttribute('href');
-          console.log(id)
           setTimeout(() => {document.querySelector(id).scrollIntoView({block: 'start', behavior: 'smooth'})}, 1500);
       }
     
