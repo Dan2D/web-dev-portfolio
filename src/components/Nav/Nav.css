@@ -39,8 +39,7 @@
     text-decoration: none;
 }
 
-.nav-bar__btns a:active,
-.nav-bar__btns a:focus  {
+.nav-bar__btns a.active {
     color: white;
 }
 

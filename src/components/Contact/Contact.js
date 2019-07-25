@@ -24,7 +24,7 @@ class Contact extends Component {
 
     render() {
         return (
-            <div className="contact-container">
+            <div className="contact-container" id="contact">
                 <SectionTtl name="connect" title="CONNECT" icon="journal" />
                 <form className="contact-form">
                     <div className="form-group">

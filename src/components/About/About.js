@@ -7,7 +7,7 @@ function About(props) {
 // TODO(LOAD UPDATED RESUME AND LINK NEW LINKED IN)
     
     return (
-        <div className="about-container">
+        <div className="about-container" id="about">
             <SectionTtl name="about" title="ABOUT" icon="climber" />
             <div className="about-content">
                 <div className="about-text">

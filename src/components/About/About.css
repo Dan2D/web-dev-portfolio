@@ -6,6 +6,10 @@
         background: #617d91;
 }
 
+.about-container {
+    padding: 8vh 0;
+    margin-top: -8vh;
+}
 
 .sec-ttl--about {
     background: #88D498;

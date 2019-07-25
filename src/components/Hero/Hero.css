@@ -1,4 +1,6 @@
 .hero-container {
+    padding-top: 8vh;
+    margin-top: -8vh;
     position: relative;
     width: 100vw;
     margin-bottom: 10px;
