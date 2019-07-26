@@ -6,7 +6,6 @@ import './Hero.css';
 class Hero extends Component {
     constructor(props) {
         super(props)
-    
         this.state = {
             descriptor: "Front-End Engineer",
             size: ""
@@ -14,13 +13,21 @@ class Hero extends Component {
     }
 
     componentDidMount(){
-        let width = document.documentElement.clientWidth;
         smoothscroll.polyfill();
-        this.descChange();
-        if (width > 500 && width < 968 ){
+        this.dscrptChange();
+        this.adjustComps();
+        window.addEventListener('resize', this.adjustComps)
+     }
+
+    adjustComps = () => {
+        let width = document.documentElement.clientWidth;
+        if (width < 481){
+            this.setState({size: ""})
+        }
+        if (width > 481 && width < 992 ){
             this.setState({size: '-md'});
         }
-        if (width > 968){
+        if (width > 992){
             this.setState({size: "-lg"});
         }
     }
@@ -31,7 +38,7 @@ class Hero extends Component {
           setTimeout(() => {document.querySelector(id).scrollIntoView({block: 'start', behavior: 'smooth'})}, 1500);
       }
     
-    descChange = () => {
+    dscrptChange = () => {
         let wordArr = ["Designer", "Back-End Engineer", "Web Developer"];
         let i = 0;
         setInterval(() => {
@@ -43,7 +50,6 @@ class Hero extends Component {
 
     
     render(){
-
         return (
             <div className="hero-container" id="home">
                 <h1 className="hero__intro">Hi, I'm Dan <br/> {this.state.descriptor}</h1>

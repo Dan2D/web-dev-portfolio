@@ -1,29 +1,49 @@
-import React, {useState, useEffect} from 'react';
-import Icon from './Icon';
-import Display from './Display';
-import InfoSec from './InfoSec';
+import React, { Component } from "react";
+import Icon from "./Icon";
+import Display from "./Display";
+import InfoSec from "./InfoSec";
 
-function ProjCard(props) {
-    const [lg, setLg] = useState("");
-    useEffect(() => {
-        if (document.documentElement.clientWidth > 768){
-            setLg("-lg");
-        }
-    }, [])
+class ProjCard extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      size: ""
+    };
+  }
+
+  componentDidMount() {
+    this.adjustComps();
+    window.addEventListener("resize", this.adjustComps);
+  }
+
+  adjustComps = () => {
+    let width = document.documentElement.clientWidth;
+    if (width < 768) {
+      this.setState({size: ""})
+    }
+    // if (width > 481 && width < 992 ){
+    //     this.setState({size: '-md'});
+    // }
+    if (width > 768) {
+      this.setState({size: "-lg"})
+    }
+  };
+
+  render() {
     return (
-        <div className="projCard-container">
-            <Icon icon={props.name + lg}/>
-            <Display lg={lg} desktop={`${props.name}-desktop`} mobile={`${props.name}-mobile`}/>
-            <InfoSec 
-            title={props.title} 
-            lg={lg}
-            tools={props.tools} 
-            design={props.design} 
-            purpose={props.purpose} 
-            notes={props.notes}
-            />
-        </div>
-    )
+      <div className="projCard-container" tabIndex="0">
+        <Icon icon={this.props.name + this.state.size} />
+        <Display size={this.state.size} desktop={`${this.props.name}-desktop`} mobile={`${this.props.name}-mobile`} />
+        <InfoSec
+          title={this.props.title}
+          size={this.state.size}
+          tools={this.props.tools}
+          design={this.props.design}
+          purpose={this.props.purpose}
+          notes={this.props.notes}
+        />
+      </div>
+    );
+  }
 }
-
-export default ProjCard
+export default ProjCard;

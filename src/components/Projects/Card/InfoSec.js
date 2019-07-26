@@ -5,7 +5,7 @@ function InfoSec (props) {
         return arr.map(icon => {
             return (
                 <div className="proj-icon" key={icon}>
-                    <img src={require(`../../../images/icons/skills/${icon}_Logo${props.lg}.png`)} alt={icon} />
+                    <img src={require(`../../../images/icons/skills/${icon}_Logo${props.size}.png`)} alt={icon} />
                     <p>{icon}</p>
                 </div>
             )

@@ -18,7 +18,7 @@ function Projects(props) {
                 purpose={projTxt.mystery.purpose}
                 notes={projTxt.mystery.notes}
                 />
-                <ProjCard 
+                <ProjCard
                 title="Best Selling Books" 
                 name="books" 
                 tools={["HTML5", "CSS3", "Javascript", "React.js"]}

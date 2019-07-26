@@ -50,3 +50,58 @@
     padding: 3px;
     border-radius: 3px;
 }
+
+@media only screen and (min-width: 481px) {
+    .contact-container:before {
+        content: '';
+        border-bottom: solid #f3e9d2   40px;
+        border-right: solid transparent 65px;
+        border-left: solid transparent 65px;
+        position: absolute;
+        top: -40px;
+        left: 15px;
+    }
+    .contact-container:after {
+        content: '';
+        border-bottom: solid #f3e9d2   30px;
+        border-right: solid transparent 45px;
+        border-left: solid transparent 45px;
+        position: absolute;
+        top: -30px;
+        left: 70px;
+    }
+    
+    .contact-form {
+        margin-top: 0;
+        align-self: center;
+        max-width: 50vw;
+        min-width: 400px;
+    }
+    .form-input--msg {
+        width: 100%;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .contact-form {
+        font-size: 18px;
+    }
+
+   .form-input--name,
+   .form-input--email {
+       width: 60%;
+   }
+}
+
+/* tablets/desktops and up ----------- */
+@media only screen and (min-width: 992px) {
+    .form-input--msg {
+        min-height: 250px;
+    }
+}
+/* large desktops and up ----------- */
+@media only screen and (min-width: 1200px) {
+    
+    
+}

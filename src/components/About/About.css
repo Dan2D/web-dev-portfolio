@@ -53,11 +53,15 @@
     margin: 0;
 }
 
+.skills-card--programming {
+    min-width: 200px;
+}
+
 .skills-card--design {
     display: inline-block;
     position: absolute;
     top: -80px;
-    right: -50px;
+    right: -75px;
     background: #88D498;
 }
 
@@ -85,4 +89,106 @@
     text-align: center;
     margin-top: 5px;
     line-height: 10px;
+}
+
+@media only screen and (min-width: 481px) {
+    .about-container:before {
+        content: '';
+        border-bottom: solid #88d498  40px;
+        border-right: solid transparent 65px;
+        border-left: solid transparent 65px;
+        position: absolute;
+        top: -40px;
+        left: 15px;
+    }
+    .about-container:after {
+        content: '';
+        border-bottom: solid #88d498  30px;
+        border-right: solid transparent 45px;
+        border-left: solid transparent 45px;
+        position: absolute;
+        top: -30px;
+        left: 70px;
+    }
+    
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .about-content {
+        width: 100vw;
+    }
+
+    .about-text {
+        margin: 20px 0 100px 20px;
+        align-self: flex-start;
+    }
+
+    .skills-card--programming {
+        max-width: 400px;
+    }
+
+    .skills-card--design {
+        top: -115px;
+        right: -90px;
+    }
+}
+
+/* tablets/desktops and up ----------- */
+@media only screen and (min-width: 992px) {
+    .about-container {
+        position: relative;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about-content {
+        position: static;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 12vh 1vw 2vw 1vw;
+    }
+
+    .about-text {
+        margin: -65px 45px 0 0;
+    }
+
+    .skill-cards {
+        margin-top: 20px;
+    }
+
+    .about-links {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 10px;
+    }
+}
+/* large desktops and up ----------- */
+@media only screen and (min-width: 1200px) {
+    .about-content {
+        margin: 12vh 1vw 2vw 1vw;
+        justify-content: center;
+    }
+
+    .about-text {
+        position: absolute;
+        top: 150px;
+        left: 20px;
+        max-width: 40%;
+        font-size: 24px;
+        margin: -65px 45px 0 0;
+
+    }
+
+    .skill-cards {
+        margin-left: 50px;
+        margin-top: 85px;
+    }
+
+    .skills-card--programming {
+        width: 500px;
+        max-width: 500px;
+    }
+    
 }

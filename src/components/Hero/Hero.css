@@ -78,8 +78,8 @@ svg {
 }
 
 .trail__label--connect {
-    bottom: 11%;
-    left: 7%;
+    bottom: calc(-35px + 10%);
+    left: calc(-16px + 10%);
 }
 
 .trail__btn--about {
@@ -88,8 +88,8 @@ svg {
 }
 
 .trail__label--about {
-    bottom: 30%;
-    right: 7%;
+    bottom: calc(-37px + 30%);
+    right: calc(-30px + 13%);
 }
 
 .trail__btn--projects {
@@ -98,8 +98,8 @@ svg {
 }
 
 .trail__label--projects {
-    bottom: 43%;
-    left: 65%;
+    bottom: calc(-15px + 45%);
+    left: calc(-80px + 64%);
 }
 
 @keyframes blink-light {
@@ -120,9 +120,9 @@ svg {
     }
 
     .trail__flag {
-        height: 65px;
-        top: 43%;
-        right: 25%;
+        height: 45px;
+        top: 45%;
+        right: 43%;
     }
 
     .trail__btn:hover {
@@ -141,13 +141,59 @@ svg {
     }
 
     .trail__btn--connect {    
+        bottom: 8%;
+        left: 20%;
+    }
+    
+    .trail__label--connect {
+        bottom: calc(-40px + 8%);;
+        left: calc(25px + 20%);
+    }
+    
+    .trail__btn--about {
+        bottom: 26%;
+        right: 27%;
+    }
+    
+    .trail__label--about {
+        bottom: calc(-42px + 26%);
+        right: calc(-59px + 27%);
+    }
+
+    .trail__btn--projects {
+        bottom: 42%;
+        right: 48%;
+    }
+    
+    .trail__label--projects {
+        bottom: calc(-30px + 42%);
+        left: calc(6px + 52%);
+    }
+    
+}
+/* tablets/desktops and up ----------- */
+@media only screen and (min-width: 992px) {
+    .hero__intro {
+        font-size: 64px;
+    }
+
+    .trail__flag {
+        height: 65px;
+        top: 43%;
+        right: 25%;
+    }
+    .trail__label {
+        font-size: 24px;
+    }
+
+    .trail__btn--connect {    
         bottom: 11%;
         left: 38%;
     }
     
     .trail__label--connect {
-        bottom: 5%;
-        left: 42%;
+        bottom: calc(-28px + 11%);
+        left: calc(-90px + 38%);
     }
     
     .trail__btn--about {
@@ -156,8 +202,8 @@ svg {
     }
     
     .trail__label--about {
-        bottom: 21%;
-        right: 8%;
+        bottom: calc(-30px + 26%);
+        right: calc(-65px + 17%);
     }
 
     .trail__btn--projects {
@@ -166,15 +212,8 @@ svg {
     }
     
     .trail__label--projects {
-        bottom: 39%;
-        left: 71%;
-    }
-    
-}
-/* tablets/desktops and up ----------- */
-@media only screen and (min-width: 992px) {
-    .hero__intro {
-        font-size: 64px;
+        bottom: calc(-30px + 42%);
+        left: calc(7px + 70%);
     }
 }
 /* large desktops and up ----------- */
