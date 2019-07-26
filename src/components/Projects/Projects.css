@@ -12,13 +12,16 @@
 }
 
 .proj-cards {
-    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* --------PROJ CARDS------------ */
 .projCard-container {
     position: relative;
     max-height: auto;
-    width: 90vw;
+    width: 60vw;
+    min-width: 335px;
     margin: 30px 0;
     padding-bottom: 10px;
     display: flex;
@@ -42,8 +45,8 @@
 }
 
 .card-icon__img {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 }
 
 .card-icon--mystery,
@@ -122,17 +125,31 @@
 
 .info-lnks {
     color: white;
-    padding: 2px 5px;
+    font-weight: 700;
+    padding: 6px 20px 0px 20px;
     border-radius: 5px;
     margin: 2px 5px;
+    border: solid currentColor 2px;
 }
 
 .info-lnks--live {
-    background: rgba(96, 144, 233, 0.8);
+    background: #1c9cd5;
+}
+
+.info-lnks--live:hover {
+    background: none;
+    color:#1c9cd5;
+    border: solid #1c9cd5 2px;
 }
 
 .info-lnks--github {
-    background: rgba(144, 194, 97, 0.8);
+    background: rgb(144, 194, 97);
+}
+
+.info-lnks--github:hover {
+    background: none;
+    color: rgb(144, 194, 97);
+    border: solid rgb(144, 194, 97) 2px;
 }
 
 .proj-info {
@@ -182,8 +199,8 @@
 .proj-icon img {
     display: block;
     margin: auto;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
 }
 
 .proj-icon p {
@@ -202,7 +219,7 @@
         border-right: solid transparent 65px;
         border-left: solid transparent 65px;
         position: absolute;
-        top: -50px;
+        top: -40px;
         right: 0;
     }
     .projects-container:after {
@@ -211,7 +228,7 @@
         border-right: solid transparent 45px;
         border-left: solid transparent 45px;
         position: absolute;
-        top: -40px;
+        top: -30px;
         right:15px;
         margin-right: 50px;
     }

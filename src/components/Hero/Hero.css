@@ -36,7 +36,7 @@ svg {
     width: 100%;
     height: auto;
     margin-right: 0;
-    margin-top: 0;
+    margin-top: -3px;
 }
 
 .trail__flag {
@@ -113,14 +113,14 @@ svg {
     }
 }
 
-/* Small devices (tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+
+@media only screen and (min-width: 481px) {
     .hero__intro {
         font-size: 48px;
     }
 
     .trail__flag {
-        height: 45px;
+        height: 65px;
         top: 43%;
         right: 25%;
     }
@@ -161,7 +161,7 @@ svg {
     }
 
     .trail__btn--projects {
-        bottom: 41%;
+        bottom: 42%;
         right: 30%;
     }
     

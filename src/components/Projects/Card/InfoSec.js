@@ -25,8 +25,8 @@ function InfoSec (props) {
             <div className="info-header">
                 <h2 className="info-header__title">{props.title}</h2>
                 <div className="info-header__lnks">
-                    <a className="info-lnks info-lnks--live" href={props.liveSite}>LIVE</a>
-                    <a className="info-lnks info-lnks--github" href={props.github}>GITHUB</a>
+                    <a className="info-lnks info-lnks--live" href={props.liveSite}>Live Site</a>
+                    <a className="info-lnks info-lnks--github" href={props.github}>GitHub</a>
                 </div>
             </div>
             <div className="proj-info-container">
