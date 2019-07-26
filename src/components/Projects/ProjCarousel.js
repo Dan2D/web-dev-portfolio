@@ -1,16 +1,12 @@
 import React from 'react';
-import SectionTtl from '../SectionTtl';
 import ProjCard from './Card/ProjCard';
 import {projTxt} from './ProjTxt';
-import './Projects.css'
+import './ProjCarousel.css';
 
-function Projects(props) {
+function ProjCarousel(props) {
     return (
-        <div className="projects-container" >
-            <div className="anchor-pt" id="projects"/>
-            <SectionTtl name="projects" title="PROJECTS" icon="backpack"/>
-            <div className="proj-cards">
-            <ProjCard 
+        <div>
+             <ProjCard 
              pos="1"
                 title="1920's Murder Mystery Party" 
                 name="mystery" 
@@ -37,10 +33,8 @@ function Projects(props) {
                 purpose={projTxt.run.purpose}
                 notes={projTxt.run.notes}
                 />
-            </div>
-            
         </div>
     )
 }
 
-export default Projects;
+export default ProjCarousel

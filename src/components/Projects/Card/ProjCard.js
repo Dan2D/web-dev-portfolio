@@ -29,9 +29,19 @@ class ProjCard extends Component {
     }
   };
 
+  clickHandler = (card) => {
+    let pos = card.currentTarget.dataset.pos;
+    if (pos === "2"){
+        return
+    }
+    let switchCard = document.querySelector('.projCard-container[data-pos="2"]');
+    switchCard.dataset.pos = pos;
+    card.currentTarget.dataset.pos = "2";
+  }
+
   render() {
     return (
-      <div className="projCard-container" tabIndex="0">
+      <div className="projCard-container" tabIndex="0" data-pos={this.props.pos} onClick={(e) => this.clickHandler(e)}>
         <Icon icon={this.props.name + this.state.size} />
         <Display size={this.state.size} desktop={`${this.props.name}-desktop`} mobile={`${this.props.name}-mobile`} />
         <InfoSec

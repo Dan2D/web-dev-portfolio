@@ -34,10 +34,10 @@
     z-index: 1;
 }
 
-.projCard-container:focus {
+/* .projCard-container:focus {
     z-index: 2;
 
-}
+} */
 
 .card-icon {
     position: absolute;
@@ -244,6 +244,7 @@
     }
 
     .projCard-container {
+        cursor: default;
         width: 45vw;
     }
 
@@ -308,6 +309,64 @@
 }
 /* tablets/desktops and up ----------- */
 @media screen and (min-width: 992px) {
+    .proj-cards {
+        height: 112vh;
+    }
+    .projCard-container {
+        position:absolute;
+        width: 400px;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 40vw;
+        cursor: pointer;
+        opacity: 0.8;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+    }
+
+    .projCard-container[data-pos="1"] {
+        top: 50px;
+        left:  -30vw;
+        right: 0;
+        transition: all 250ms ease-out;
+    }
+
+    .projCard-container[data-pos="2"] {
+        cursor: default;
+        opacity: 1;
+        z-index: 2;
+        transition: all 500ms ease-out;
+    }
+
+    .projCard-container[data-pos="3"] {
+        top: 50px;
+        left: 0;
+        right: -30vw;
+        transition: all 250ms ease-out;
+    }
+
+    .projCard-container[data-pos="1"]:hover {
+        opacity: 1;
+        left: -35vw;
+        transition: all 250ms ease-out;
+    }
+
+    .projCard-container[data-pos="3"]:hover {
+        opacity: 1;
+        right: -35vw;
+        transition: all 250ms ease-out;
+    }
+
+    .projCard-container[data-pos="1"] a,
+    .projCard-container[data-pos="2"] a {
+        pointer-events: none;
+    }
+
+    .projCard-container[data-pos="2"] a {
+        pointer-events: all;
+    }
 }
 /* large desktops and up ----------- */
 @media screen and (min-width: 1200px) {
