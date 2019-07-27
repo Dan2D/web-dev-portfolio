@@ -24,10 +24,10 @@ class Hero extends Component {
         if (width < 481){
             this.setState({size: ""})
         }
-        if (width > 481 && width < 992 ){
+        if (width > 481 && width < 992 - 17 ){
             this.setState({size: '-md'});
         }
-        if (width > 992){
+        if (width > 992 - 17){
             this.setState({size: "-lg"});
         }
     }

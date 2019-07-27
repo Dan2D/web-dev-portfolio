@@ -49,7 +49,7 @@
 /* Small devices (tablets, 768px and up) */
 @media  (min-width: 768px) {
     .nav-bar {
-        height: 8vh;
+        height: 6vh;
         max-height: 100px;
 
     }
@@ -60,12 +60,20 @@
         line-height: 27px;
     }
 
+    .nav-bar__btns {
+        margin-right: 20px;
+    }
+
     .nav-bar__btns a {
         font-size: 24px;
     }
 }
 /* tablets/desktops and up ----------- */
 @media (min-width: 992px) {
+    .nav-bar {
+        height: 6vh;
+        /* min-height: 100px; */
+    }
 }
 /* large desktops and up ----------- */
 @media  (min-width: 1200px) {

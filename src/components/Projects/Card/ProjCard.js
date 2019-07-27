@@ -46,6 +46,8 @@ class ProjCard extends Component {
         <Display size={this.state.size} desktop={`${this.props.name}-desktop`} mobile={`${this.props.name}-mobile`} />
         <InfoSec
           title={this.props.title}
+          liveSite={this.props.liveSite}
+          github={this.props.github}
           size={this.state.size}
           tools={this.props.tools}
           design={this.props.design}

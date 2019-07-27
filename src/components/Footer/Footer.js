@@ -11,7 +11,7 @@ function Footer() {
                     <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
                     <a href="https://www.flaticon.com/authors/pixel-buddha" title="Pixel Buddha">Pixel Buddha</a> 
                 </div>     
-                <p className="copyright">Copyright &#9400; Dan Schultz 2019</p>
+                <p className="copyright">Custom Made by Dan Schultz &#9400; 2019</p>
                 
 
                 {/* <div className="footer-links">

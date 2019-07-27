@@ -2,9 +2,9 @@ import React from 'react'
 
 function InfoSec (props) {
    const mapIcons = (arr) => {
-        return arr.map(icon => {
+        return arr.map((icon, indx) => {
             return (
-                <div className="proj-icon" key={icon}>
+                <div className="proj-icon" key={icon + "-" + indx}>
                     <img src={require(`../../../images/icons/skills/${icon}_Logo${props.size}.png`)} alt={icon} />
                     <p>{icon}</p>
                 </div>
@@ -13,9 +13,9 @@ function InfoSec (props) {
     }
 
     const projDetailsGen = (noteArr) => {
-        return noteArr.map(note => {
+        return noteArr.map((note, indx)=> {
             return (
-                <li>{note}</li>
+                <li key={note[0] + "-" + indx} >{note}</li>
             )
         })
     }

@@ -1,5 +1,8 @@
+:root {
+    --nav-ht: 6vh;
+  }
 .hero-container {
-    padding-top: 8vh;
+    padding-top: var(--nav-ht);
     position: relative;
     width: 100vw;   
 }

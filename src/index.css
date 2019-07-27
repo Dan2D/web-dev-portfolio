@@ -10,6 +10,7 @@ body {
 }
 
 body {
+  position:relative;
   margin: 0;
   font-family: Khula, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
