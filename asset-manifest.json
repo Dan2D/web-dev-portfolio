@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/web-dev-portfolio/static/css/main.ca52ae59.chunk.css",
+    "main.css": "/web-dev-portfolio/static/css/main.10e0075e.chunk.css",
     "main.js": "/web-dev-portfolio/static/js/main.5359e1ac.chunk.js",
     "main.js.map": "/web-dev-portfolio/static/js/main.5359e1ac.chunk.js.map",
     "runtime~main.js": "/web-dev-portfolio/static/js/runtime~main.95766ac1.js",
@@ -8,9 +8,9 @@
     "static/js/2.d32c3d17.chunk.js": "/web-dev-portfolio/static/js/2.d32c3d17.chunk.js",
     "static/js/2.d32c3d17.chunk.js.map": "/web-dev-portfolio/static/js/2.d32c3d17.chunk.js.map",
     "index.html": "/web-dev-portfolio/index.html",
-    "precache-manifest.83e8bf7e4a961cf80819d9b0d3d51c35.js": "/web-dev-portfolio/precache-manifest.83e8bf7e4a961cf80819d9b0d3d51c35.js",
+    "precache-manifest.b59c012ef2be81c31b44627c29cf8394.js": "/web-dev-portfolio/precache-manifest.b59c012ef2be81c31b44627c29cf8394.js",
     "service-worker.js": "/web-dev-portfolio/service-worker.js",
-    "static/css/main.ca52ae59.chunk.css.map": "/web-dev-portfolio/static/css/main.ca52ae59.chunk.css.map",
+    "static/css/main.10e0075e.chunk.css.map": "/web-dev-portfolio/static/css/main.10e0075e.chunk.css.map",
     "static/media/Bootstrap_Logo-lg.png": "/web-dev-portfolio/static/media/Bootstrap_Logo-lg.2b6c685b.png",
     "static/media/CSS3_Logo-lg.png": "/web-dev-portfolio/static/media/CSS3_Logo-lg.7106d1c1.png",
     "static/media/Express_logo.png": "/web-dev-portfolio/static/media/Express_logo.98ff4822.png",
