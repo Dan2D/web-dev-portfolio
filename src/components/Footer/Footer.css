@@ -48,6 +48,18 @@
 
 .footer-links {
     display: inline-block;
+    position: absolute;
+    right: 25px;
+    bottom: 0px;
+}
+
+.link-icon img {
+    height: 45px;
+    width: 45px;
+}
+
+.link-icon p {
+    margin-top: 5px;
 }
 
 .icon-resources,
@@ -58,4 +70,10 @@
 
 .icon-resources {
     margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+    .footer-links {
+        right: 45px;
+    }
 }

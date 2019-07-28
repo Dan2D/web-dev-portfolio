@@ -14,16 +14,12 @@ function Footer() {
                 <p className="copyright">Custom Made by Dan Schultz &#9400; 2019</p>
                 
 
-                {/* <div className="footer-links">
-                    <a className="link-icon" href="https://github.com/Dan2D">
+                <div className="footer-links">
+                    <a className="link-icon" href="https://github.com/Dan2D/web-dev-portfolio">
                         <img src={require('../../images/icons/Github_Logo.png')} alt="github" />
-                        <p>Github</p>
+                        <p>This Site's Code!</p>
                     </a>
-                    <a className="link-icon" href="#">
-                        <img src={require('../../images/icons/Linkedin_Logo.png')} alt="linkedin" />
-                        <p>Linkedin</p>
-                    </a>
-                </div> */}
+                </div>
             </div>
         </div>
     )

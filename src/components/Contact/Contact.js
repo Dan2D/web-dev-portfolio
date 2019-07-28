@@ -95,7 +95,7 @@ class Contact extends Component {
               onChange={(e) => this.handleChange(e)}
             />
           </div>
-          <input className="form-submit" type="submit" value="send" />
+          <input className="form-submit" type="submit" value="Send" />
         </form>
       </div>
     );

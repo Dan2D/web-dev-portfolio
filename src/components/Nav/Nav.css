@@ -72,9 +72,12 @@
 @media (min-width: 992px) {
     .nav-bar {
         height: 6vh;
-        /* min-height: 100px; */
     }
 }
 /* large desktops and up ----------- */
 @media  (min-width: 1200px) {
+    .nav-bar__title {
+        font-size: 35px;
+        line-height: 25px;
+    }
 }

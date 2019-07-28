@@ -7,6 +7,25 @@
     justify-content: flex-start;
 }
 
+.projects-container:before {
+    content: '';
+    border-bottom: solid #1a936f  40px;
+    border-right: solid transparent 65px;
+    border-left: solid transparent 65px;
+    position: absolute;
+    top: -40px;
+    left: 5px;
+}
+.projects-container:after {
+    content: '';
+    border-bottom: solid #1a936f 30px;
+    border-right: solid transparent 45px;
+    border-left: solid transparent 45px;
+    position: absolute;
+    top: -30px;
+    left:60px;
+}
+
 .sec-ttl--projects {
     background: #1A936F;
 }
@@ -15,7 +34,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
+
 /* --------PROJ CARDS------------ */
 .projCard-container {
     position: relative;
@@ -173,6 +194,10 @@
     margin: 0 0 0 10px;
 }
 
+.text-container {
+    margin: 10px 0;
+}
+
 .proj-info__details {
     margin: 0;
     padding-left: 20px;
@@ -180,12 +205,13 @@
 
 .tools__title,
 .text__title {
-    margin: 0 0 0 10px;
+    margin: 0;
 }
 
 .icon-group {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
 .proj-icon {
@@ -210,25 +236,6 @@
 
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .projects-container:before {
-        content: '';
-        border-bottom: solid #c6dabf  40px;
-        border-right: solid transparent 65px;
-        border-left: solid transparent 65px;
-        position: absolute;
-        top: -40px;
-        right: 0;
-    }
-    .projects-container:after {
-        content: '';
-        border-bottom: solid #c6dabf  30px;
-        border-right: solid transparent 45px;
-        border-left: solid transparent 45px;
-        position: absolute;
-        top: -30px;
-        right:15px;
-        margin-right: 50px;
-    }
     .sec-ttl {
         margin-top: -10px;
         border-radius: 0 0 25px 0;
