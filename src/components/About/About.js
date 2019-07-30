@@ -1,11 +1,10 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import SectionTtl from '../SectionTtl';
 import SkillsCard from './SkillsCard';
 import './About.css';
 
-function About(props) {
-// TODO(LOAD UPDATED RESUME AND LINK NEW LINKED IN)
-    
+function About(props) {    
     return (
         <div className="about-container">
             <div className="anchor-pt" id="about" />
@@ -41,10 +40,10 @@ function About(props) {
                         <img src={require('../../images/icons/Linkedin_Logo.png')} alt="linkedin" />
                         <p>Linkedin</p>
                     </a>
-                    <a className="link-icon" href="#">
+                    <Link to="/resume" className="link-icon">
                         <img src={require('../../images/icons/Resume_Logo.png')} alt="document icon" />
                         <p>Resume</p>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

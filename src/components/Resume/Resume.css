@@ -1,0 +1,32 @@
+.resume-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 15px 0;
+}
+
+.resume-view img{
+    width: 95vw;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .resume-view img{
+        width: 700px;
+        height: 905.9px;
+    }
+}
+
+/* tablets/desktops and up ----------- */
+@media only screen and (min-width: 992px) {
+    .resume-view img{
+        width: 900px;
+        height: 1164.7px;
+    }
+}
+/* large desktops and up ----------- */
+@media only screen and (min-width: 1200px) {
+    
+    
+}

@@ -1,4 +1,6 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, Fragment} from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Resume from './components/Resume/Resume';
 import Nav from './components/Nav/Nav';
 import Hero from './components/Hero/Hero';
 import Projects from './components/Projects/Projects';
@@ -26,14 +28,21 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
-     <Nav size={size}/>
-     <Hero />
-     <Projects />
-     <About />
-     <Contact />
-     <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Route path="/resume" exact component={Resume}/>
+        <Route path="/" exact render={() => 
+          <Fragment>
+            <Nav size={size}/>
+            <Hero />
+            <Projects />
+            <About />
+            <Contact />
+            <Footer />
+          </Fragment>
+        }/>
+      </div>
+    </Router>
   );
 }
 
