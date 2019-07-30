@@ -45,7 +45,7 @@ class Hero extends Component {
             if (i >= wordArr.length) return;
             this.setState({descriptor: wordArr[i]})
             i++;
-        },  1800);
+        },  1900);
     }
 
     
@@ -56,12 +56,15 @@ class Hero extends Component {
                 <div className="trail">
                     <img className="trail__img" src={require(`../../images/hero-bg${this.state.size}.jpg`)} alt="mt. rainier" />
                     <img className="trail__flag" src={require(`../../images/Flag${this.state.size}.png`)} alt="flag"/>
-                    <a href="#contact" className="trail__btn trail__btn--connect" onClick={(e) => this.scrollTo(e)}></a>
-                    <p className="trail__label trail__label--connect">Connect</p>
-                    <a href="#about" className="trail__btn trail__btn--about" onClick={(e) => this.scrollTo(e)}></a>
-                    <p className="trail__label trail__label--about">About</p>
-                    <a href="#projects" className="trail__btn trail__btn--projects" onClick={(e) => this.scrollTo(e)}></a>
-                    <p className="trail__label trail__label--projects" >Projects</p>
+                    <a href="#contact" className="trail__btn trail__btn--connect" onClick={(e) => this.scrollTo(e)} aria-label="contact section">
+                        <p className="trail__label trail__label--connect">Connect</p>
+                    </a>
+                    <a href="#about" className="trail__btn trail__btn--about" onClick={(e) => this.scrollTo(e)} aria-label="about section">
+                        <p className="trail__label trail__label--about">About</p>
+                    </a>
+                    <a href="#projects" className="trail__btn trail__btn--projects" onClick={(e) => this.scrollTo(e)} aria-label="projects section">
+                        <p className="trail__label trail__label--projects" >Projects</p>
+                    </a>
                     <SvgMap size={this.state.size} />
                 </div>
             </div>

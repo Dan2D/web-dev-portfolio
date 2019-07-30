@@ -9,6 +9,6 @@ export const projTxt = {
     },
     run: {
         purpose: "Provide a way for myself and others to track their running goals and progress towards those goals through individual runs.",
-        notes: ["Asynchronous JWT authentication and user password encryption", "CRUD System for goals and runs", "Redux state and React Router page management", "Animated Page Transitions"]
+        notes: ["Asynchronous JWT authentication and user password encryption", "CRUD System for user goals and runs", "Visual progress indicator for completion of goals", "Animated Page Transitions"]
     }
 }

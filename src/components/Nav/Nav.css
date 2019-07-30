@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: flex-end;
     width: 100vw;
-    height: 8vh;
+    height: 35px;
     background: #114B5F;
     
 }
@@ -36,9 +36,13 @@
 .nav-bar__btns a {
     font-size: 16px;
     cursor: pointer;
-    color: black;
+    color: #717171;
     line-height: 10px;
     text-decoration: none;
+}
+
+.nav-bar__btns a:hover {
+    color: #b9b9b9;
 }
 
 .nav-bar__btns a.active {
@@ -49,9 +53,8 @@
 /* Small devices (tablets, 768px and up) */
 @media  (min-width: 768px) {
     .nav-bar {
-        height: 6vh;
-        max-height: 100px;
-
+        height:60px;
+        max-height: 60px;
     }
     
     .nav-bar__title {
@@ -66,12 +69,6 @@
 
     .nav-bar__btns a {
         font-size: 24px;
-    }
-}
-/* tablets/desktops and up ----------- */
-@media (min-width: 992px) {
-    .nav-bar {
-        height: 6vh;
     }
 }
 /* large desktops and up ----------- */

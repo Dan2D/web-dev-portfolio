@@ -9,21 +9,21 @@
 
 .about-container:before {
     content: '';
-    border-bottom: solid #617d91  40px;
+    border-bottom: solid #88D498  40px;
     border-right: solid transparent 65px;
     border-left: solid transparent 65px;
     position: absolute;
     top: -40px;
-    right: 5px;
+    left: 5px;
 }
 .about-container:after {
     content: '';
-    border-bottom: solid #617d91  30px;
+    border-bottom: solid #88D498  30px;
     border-right: solid transparent 45px;
     border-left: solid transparent 45px;
     position: absolute;
     top: -30px;
-    right: 70px;
+    left: 70px;
 }
 
 .sec-ttl--about {
@@ -110,27 +110,27 @@
     line-height: 10px;
 }
 
-@media only screen and (min-width: 481px) {
+/* @media only screen and (min-width: 481px) {
     .about-container:before {
         content: '';
-        border-bottom: solid #617d91  40px;
+        border-bottom: solid #88D498 40px;
         border-right: solid transparent 65px;
         border-left: solid transparent 65px;
         position: absolute;
         top: -40px;
-        right: 5px;
+        left: 5px;
     }
     .about-container:after {
         content: '';
-        border-bottom: solid #617d91  30px;
+        border-bottom: solid #88D498  30px;
         border-right: solid transparent 45px;
         border-left: solid transparent 45px;
         position: absolute;
         top: -30px;
-        right: 70px;
+        left: 70px;
     }
     
-}
+} */
 
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -165,7 +165,7 @@
         position: static;
         flex-direction: row;
         justify-content: flex-start;
-        margin: 12vh 1vw 2vw 1vw;
+        margin: 110px 1vw 2vw 1vw;
     }
 
     .about-text {
@@ -186,7 +186,6 @@
 /* large desktops and up ----------- */
 @media only screen and (min-width: 1200px) {
     .about-content {
-        margin: 12vh 1vw 2vw 1vw;
         justify-content: center;
     }
 
@@ -194,15 +193,13 @@
         position: absolute;
         top: 150px;
         left: 20px;
-        max-width: 40%;
+        max-width: 50%;
         font-size: 24px;
-        margin: -65px 45px 0 0;
-
     }
 
     .skill-cards {
         margin-left: 50px;
-        margin-top: 85px;
+        margin-top: 150px;
     }
 
     .skills-card--programming {

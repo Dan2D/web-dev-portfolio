@@ -13,9 +13,11 @@ function About(props) {
                 <div className="about-text">
                     <p className="about-text__blurb">
                     Hi, I’m Dan Schultz, a web developer based in Seattle, WA.
-                    I love creating unique and useful applications. When I’m not programming I
-                    like to camp, play board games/DnD, run, and digitally paint. Feel free to 
-                    contact me if you need any help on your next creative project!
+                    I'm a Front-End Engineer with experience with Back-End and UX/UI Design.
+                    I love to create sites and applications with a focus on creativity and efficiency.
+                    When I’m not programming I like to camp, play board games, DnD, go on runs, and digitally paint. 
+
+                    Feel free to contact me if you need any help on your next creative project!
                     </p>
                     <p className="about-text__sig">- Dan</p>
                 </div>
@@ -32,11 +34,11 @@ function About(props) {
                     />
                 </div>
                 <div className="about-links">
-                    <a className="link-icon" href="#">
+                    <a className="link-icon" href="https://github.com/Dan2D">
                         <img src={require('../../images/icons/Github_Logo.png')} alt="github" />
                         <p>Github</p>
                     </a>
-                    <a className="link-icon" href="#">
+                    <a className="link-icon" href="https://www.linkedin.com/in/danschultz-dev/">
                         <img src={require('../../images/icons/Linkedin_Logo.png')} alt="linkedin" />
                         <p>Linkedin</p>
                     </a>

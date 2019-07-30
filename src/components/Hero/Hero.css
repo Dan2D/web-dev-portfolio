@@ -81,8 +81,8 @@ svg {
 }
 
 .trail__label--connect {
-    bottom: calc(-35px + 10%);
-    left: calc(-16px + 10%);
+    bottom: -35px;
+    left: -16px;
 }
 
 .trail__btn--about {
@@ -91,8 +91,8 @@ svg {
 }
 
 .trail__label--about {
-    bottom: calc(-37px + 30%);
-    right: calc(-30px + 13%);
+    bottom: -37px;
+    right: -30px;
 }
 
 .trail__btn--projects {
@@ -101,8 +101,8 @@ svg {
 }
 
 .trail__label--projects {
-    bottom: calc(-15px + 45%);
-    left: calc(-80px + 64%);
+    bottom: -15px;
+    left: -60px;
 }
 
 @keyframes blink-light {
@@ -149,8 +149,8 @@ svg {
     }
     
     .trail__label--connect {
-        bottom: calc(-40px + 8%);;
-        left: calc(25px + 20%);
+        bottom: -40px;
+        left: 25px;
     }
     
     .trail__btn--about {
@@ -159,8 +159,8 @@ svg {
     }
     
     .trail__label--about {
-        bottom: calc(-42px + 26%);
-        right: calc(-59px + 27%);
+        bottom: -42px;
+        right: -59px;
     }
 
     .trail__btn--projects {
@@ -169,8 +169,8 @@ svg {
     }
     
     .trail__label--projects {
-        bottom: calc(-30px + 42%);
-        left: calc(6px + 52%);
+        bottom: -30px;
+        left: 30px;
     }
     
 }
@@ -195,8 +195,8 @@ svg {
     }
     
     .trail__label--connect {
-        bottom: calc(-28px + 11%);
-        left: calc(-90px + 38%);
+        bottom: -28px;
+        left: -90px;
     }
     
     .trail__btn--about {
@@ -205,8 +205,8 @@ svg {
     }
     
     .trail__label--about {
-        bottom: calc(-30px + 26%);
-        right: calc(-65px + 17%);
+        bottom: -30px;
+        right: -65px;
     }
 
     .trail__btn--projects {
@@ -215,8 +215,8 @@ svg {
     }
     
     .trail__label--projects {
-        bottom: calc(-30px + 42%);
-        left: calc(7px + 70%);
+        bottom: -30px;
+        left: 30px;
     }
 }
 /* large desktops and up ----------- */
