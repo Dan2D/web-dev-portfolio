@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d17158ea928061aee05beab97712ee14",
+    "revision": "a598a2abd822de9cff49b74596c5db51",
     "url": "/index.html"
   },
   {
-    "revision": "1729e2218cf755be663d",
+    "revision": "2573ae7385a3d9e1e307",
     "url": "/static/css/main.73f221da.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.aaffa976.chunk.js"
   },
   {
-    "revision": "1729e2218cf755be663d",
-    "url": "/static/js/main.9d43f6d3.chunk.js"
+    "revision": "2573ae7385a3d9e1e307",
+    "url": "/static/js/main.d5b24cc8.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/React.js_Logo.0c82ece3.png"
   },
   {
-    "revision": "8a92d2b029692ee17afeaedd856ee48c",
-    "url": "/static/media/Web-Developer-Resume-Dan-Schultz-2019.8a92d2b0.png"
+    "revision": "c77186d7e9d88fcbc3e4bfe31ae9e5ec",
+    "url": "/static/media/Web-Developer-Resume-Dan-Schultz-2019.c77186d7.png"
   },
   {
     "revision": "d8cedf29fe47acc597d837faa6404fe5",
