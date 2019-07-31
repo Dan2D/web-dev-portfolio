@@ -33,7 +33,9 @@ function InfoSec (props) {
                 <div className="proj-info proj-info--text">
                     <div className="text-container">  
                         <h3 className="text__title">Purpose</h3>
-                        <p>{props.purpose}</p>
+                        <p>{props.purpose[0]}</p>
+                        {props.purpose[1] ? <p>{props.purpose[1]}</p> : null}
+                        {props.purpose[2] ? <p>{props.purpose[2]}</p> : null}
                     </div>
                     <div className="text-container">
                         <h3 className="text__title">Project Details</h3>
