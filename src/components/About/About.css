@@ -110,28 +110,6 @@
     line-height: 10px;
 }
 
-/* @media only screen and (min-width: 481px) {
-    .about-container:before {
-        content: '';
-        border-bottom: solid #88D498 40px;
-        border-right: solid transparent 65px;
-        border-left: solid transparent 65px;
-        position: absolute;
-        top: -40px;
-        left: 5px;
-    }
-    .about-container:after {
-        content: '';
-        border-bottom: solid #88D498  30px;
-        border-right: solid transparent 45px;
-        border-left: solid transparent 45px;
-        position: absolute;
-        top: -30px;
-        left: 70px;
-    }
-    
-} */
-
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .about-content {

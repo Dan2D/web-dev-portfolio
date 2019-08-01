@@ -21,9 +21,6 @@ class ProjCard extends Component {
     if (width < 768) {
       this.setState({size: ""})
     }
-    // if (width > 481 && width < 992 ){
-    //     this.setState({size: '-md'});
-    // }
     if (width > 768) {
       this.setState({size: "-lg"})
     }
@@ -48,6 +45,7 @@ class ProjCard extends Component {
           title={this.props.title}
           liveSite={this.props.liveSite}
           github={this.props.github}
+          figma={this.props.figma}
           size={this.state.size}
           tools={this.props.tools}
           design={this.props.design}

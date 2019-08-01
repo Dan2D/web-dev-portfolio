@@ -16,7 +16,7 @@ function About(props) {
                     I'm a Front-End Engineer with experience with Back-End and UX/UI Design.
                     I love to create sites and applications with a focus on creativity and efficiency.
                     When I’m not programming I like to camp, play board games, DnD, go on runs, and digitally paint. 
-
+                    <br/><br/>
                     Feel free to contact me if you need any help on your next creative project!
                     </p>
                     <p className="about-text__sig">- Dan</p>
