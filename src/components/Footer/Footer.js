@@ -16,8 +16,12 @@ function Footer() {
 
                 <div className="footer-links">
                     <a className="link-icon" href="https://github.com/Dan2D/web-dev-portfolio">
-                        <img src={require('../../images/icons/Github_Logo.png')} alt="github" />
+                        <img src={require('../../images/icons/Github_Logo.png')} alt="github logo" />
                         <p>This Site's Code!</p>
+                    </a>
+                    <a className="link-icon" href="https://www.figma.com/file/FyKjQNKPqwye42dMJkEZHh/Portfolio-Site?node-id=0%3A1">
+                        <img src={require('../../images/icons/Figma_Logo.png')} alt="figma logo" />
+                        <p>This Site's Mock-up!</p>
                     </a>
                 </div>
             </div>

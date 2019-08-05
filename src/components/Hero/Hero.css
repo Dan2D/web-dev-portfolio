@@ -5,6 +5,8 @@
     padding-top: var(--nav-ht);
     position: relative;
     width: 100vw;   
+    padding-bottom: 5vh;
+    background: black;
 }
 
 button {

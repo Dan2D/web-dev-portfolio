@@ -1,15 +1,18 @@
+:root {
+    --about-bg: #42788B;
+}
 .about-container,
 .about-content {
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: #617d91;
+        background: var(--about-bg);
 }
 
 .about-container:before {
     content: '';
-    border-bottom: solid #88D498  40px;
+    border-bottom: solid var(--about-bg)  40px;
     border-right: solid transparent 65px;
     border-left: solid transparent 65px;
     position: absolute;
@@ -18,7 +21,7 @@
 }
 .about-container:after {
     content: '';
-    border-bottom: solid #88D498  30px;
+    border-bottom: solid var(--about-bg)  30px;
     border-right: solid transparent 45px;
     border-left: solid transparent 45px;
     position: absolute;
@@ -27,7 +30,7 @@
 }
 
 .sec-ttl--about {
-    background: #88D498;
+    background: var(--about-bg);
 }
 
 .about-content {
@@ -43,6 +46,12 @@
 
 .about-text__blurb {
     margin: 0;
+}
+
+.contact-link {
+    font-weight: 700;
+    text-decoration: none;
+    color: #88D498;
 }
 
 .about-text__sig {
@@ -79,8 +88,8 @@
 .skills-card--design {
     display: inline-block;
     position: absolute;
-    top: -80px;
-    right: -75px;
+    top: -90px;
+    right: -35px;
     background: #88D498;
 }
 
@@ -126,7 +135,7 @@
     }
 
     .skills-card--design {
-        top: -115px;
+        top: -98px;
         right: -90px;
     }
 }

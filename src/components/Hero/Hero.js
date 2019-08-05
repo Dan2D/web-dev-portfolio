@@ -20,14 +20,14 @@ class Hero extends Component {
      }
 
     adjustComps = () => {
-        let width = document.documentElement.clientWidth;
+        let width = window.innerWidth;
         if (width < 481){
             this.setState({size: ""})
         }
-        if (width > 481 && width < 992 - 17 ){
+        if (width > 481 && width < 992){
             this.setState({size: '-md'});
         }
-        if (width > 992 - 17){
+        if (width >= 992){
             this.setState({size: "-lg"});
         }
     }

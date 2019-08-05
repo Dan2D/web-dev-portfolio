@@ -5,6 +5,11 @@ import SkillsCard from './SkillsCard';
 import './About.css';
 
 function About(props) {    
+    const scrollTo = (e) => {
+        e.preventDefault();
+        let id = e.target.getAttribute("href");
+        document.querySelector(id).scrollIntoView({ behavior: "smooth", block: "start" });
+      }
     return (
         <div className="about-container">
             <div className="anchor-pt" id="about" />
@@ -15,9 +20,9 @@ function About(props) {
                     Hi, I’m Dan Schultz, a web developer based in Seattle, WA.
                     I'm a Front-End Engineer with experience with Back-End and UX/UI Design.
                     I love to create sites and applications with a focus on creativity and efficiency.
-                    When I’m not programming I like to camp, play board games, DnD, go on runs, and digitally paint. 
+                    When I’m not programming I like to camp, go on runs, play board games/DnD, and digitally paint. 
                     <br/><br/>
-                    Feel free to contact me if you need any help on your next creative project!
+                    Feel free to <a className="contact-link" href="#contact" onClick={(e) => scrollTo(e)}>contact me</a> if you need any help on your next creative project!
                     </p>
                     <p className="about-text__sig">- Dan</p>
                 </div>

@@ -1,3 +1,6 @@
+:root {
+    --proj-bg: #c6dabf;
+}
 
 .projects-container {
     position: relative;
@@ -9,7 +12,7 @@
 
 .projects-container:before {
     content: '';
-    border-bottom: solid #1a936f  40px;
+    border-bottom: solid var(--proj-bg)  40px;
     border-right: solid transparent 65px;
     border-left: solid transparent 65px;
     position: absolute;
@@ -18,7 +21,7 @@
 }
 .projects-container:after {
     content: '';
-    border-bottom: solid #1a936f 30px;
+    border-bottom: solid var(--proj-bg) 30px;
     border-right: solid transparent 45px;
     border-left: solid transparent 45px;
     position: absolute;
@@ -27,14 +30,15 @@
 }
 
 .sec-ttl--projects {
-    background: #1A936F;
+    background: var(--proj-bg);
 }
 
 .proj-cards {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 75px;
 }
 
 /* --------PROJ CARDS------------ */
@@ -148,7 +152,7 @@
 .info-lnks {
     color: white;
     font-weight: 700;
-    padding: 6px 20px 0px 20px;
+    padding: 6px 10px 0px 10px;
     border-radius: 5px;
     margin: 2px 5px;
     text-decoration: none;

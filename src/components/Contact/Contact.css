@@ -1,15 +1,17 @@
-
+:root {
+    --contact-bg: #ccc9ab;
+}
 .contact-container {
     position: relative;
     width:100vw;
     display: flex;
     flex-direction: column;
-    background: #ccc9ab;
+    background: var(--contact-bg);
 }
 
 .contact-container:before {
     content: '';
-    border-bottom: solid #f3e9d2   40px;
+    border-bottom: solid var(--contact-bg) 40px;
     border-right: solid transparent 65px;
     border-left: solid transparent 65px;
     position: absolute;
@@ -18,7 +20,7 @@
 }
 .contact-container:after {
     content: '';
-    border-bottom: solid #f3e9d2   30px;
+    border-bottom: solid var(--contact-bg) 30px;
     border-right: solid transparent 45px;
     border-left: solid transparent 45px;
     position: absolute;
@@ -51,7 +53,7 @@
 }
 
 .sec-ttl--connect {
-    background: #F3E9D2;
+    background: var(--contact-bg);
 }
 
 .contact-form {
