@@ -1,4 +1,5 @@
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import SectionTtl from '../SectionTtl';
 import ProjCard from './Card/ProjCard';
 import {projTxt} from './ProjTxt';
@@ -6,10 +7,12 @@ import './Projects.css'
 
 function Projects(props) {
     return (
+       
         <div className="projects-container" >
             <div className="anchor-pt" id="projects"/>
             <SectionTtl name="projects" title="PROJECTS" icon="backpack"/>
             <div className="proj-cards">
+            <LazyLoad height={200} offset={-200}>
             <ProjCard 
              pos="1"
                 title="1920's Murder Mystery Party" 
@@ -46,8 +49,8 @@ function Projects(props) {
                 purpose={projTxt.run.purpose}
                 notes={projTxt.run.notes}
                 />
+                 </LazyLoad>
             </div>
-            
         </div>
     )
 }

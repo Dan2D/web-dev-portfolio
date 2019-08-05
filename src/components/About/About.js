@@ -1,4 +1,5 @@
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import {Link} from 'react-router-dom';
 import SectionTtl from '../SectionTtl';
 import SkillsCard from './SkillsCard';
@@ -11,6 +12,7 @@ function About(props) {
         document.querySelector(id).scrollIntoView({ behavior: "smooth", block: "start" });
       }
     return (
+
         <div className="about-container">
             <div className="anchor-pt" id="about" />
             <SectionTtl name="about" title="ABOUT" icon="climber" />
@@ -26,6 +28,7 @@ function About(props) {
                     </p>
                     <p className="about-text__sig">- Dan</p>
                 </div>
+                <LazyLoad height={200} offset={100}>
                 <div className="skill-cards">
                     <SkillsCard
                     name="programming" 
@@ -38,6 +41,8 @@ function About(props) {
                     skills={["Photoshop", "Figma"]}
                     />
                 </div>
+                </LazyLoad>
+                
                 <div className="about-links">
                     <a className="link-icon" href="https://github.com/Dan2D">
                         <img src={require('../../images/icons/Github_Logo.png')} alt="github" />
@@ -54,6 +59,7 @@ function About(props) {
                 </div>
             </div>
         </div>
+        
     )
 }
 
