@@ -11,7 +11,7 @@ class Contact extends Component {
       user_name: "",
       user_email: "",
       subject: "",
-      contact: ""
+      msg: ""
     };
   }
 
@@ -25,12 +25,12 @@ class Contact extends Component {
         "user_name": this.state.user_name,
         "user_email": this.state.user_email,
         "subject": this.state.subject,
-        "text": this.state.contact
+        "text": this.state.msg
     }
     let service_id = "gmail";
     let template_id = "contact_form";
     emailjs.send(service_id, template_id, template_params, "user_ixUjNyUv7809hblRhdUc2" );
-    this.setState({user_name: "", user_email: "", subject: "", contact: ""});
+    this.setState({user_name: "", user_email: "", subject: "", msg: ""});
     document.getElementById("msg-modal").className = "msg-modal visible";
     setTimeout(() => {document.getElementById("msg-modal").className = "msg-modal"}, 500);
   };
@@ -44,10 +44,11 @@ class Contact extends Component {
         <form className="contact-form" id="contact-form" onSubmit={(e) => this.handleSubmit(e)}>
           <input type="hidden" name="contact_number" />
           <div className="form-group">
-            <label className="form-label" htmlFor="user_name">
+            <label className="form-label" for="user_name" htmlFor="user_name">
               Name
             </label>
             <input
+              id="user_name"
               className="form-input form-input--name"
               type="text"
               value={this.state.user_name}
@@ -57,10 +58,11 @@ class Contact extends Component {
             />
           </div>
           <div className="form-group">
-            <label className="form-label" htmlFor="user_email">
+            <label className="form-label" for="user_email" htmlFor="user_email">
               Email
             </label>
             <input
+              id="user_email"
               className="form-input form-input--email"
               type="email"
               value={this.state.user_email}
@@ -70,10 +72,11 @@ class Contact extends Component {
             />
           </div>
           <div className="form-group">
-            <label className="form-label" htmlFor="subject">
+            <label className="form-label" for="subject" htmlFor="subject">
               Subject
             </label>
             <input
+              id="subject"
               className="form-input form-input--subject"
               type="text"
               value={this.state.subject}
@@ -83,14 +86,15 @@ class Contact extends Component {
             />
           </div>
           <div className="form-group">
-            <label className="form-label" htmlFor="contact">
+            <label className="form-label" for="msg" htmlFor="msg">
               Message
             </label>
             <textarea
+              id="msg"
               className="form-input form-input--msg"
               type="textarea"
-              value={this.state.contact}
-              name="contact"
+              value={this.state.msg}
+              name="msg"
               placeholder="Enter your message here"
               onChange={(e) => this.handleChange(e)}
             />

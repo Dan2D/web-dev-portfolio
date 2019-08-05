@@ -1,5 +1,6 @@
 @font-face {
   font-family: 'Khula';
+  font-display: auto;
   src: url('./fonts/Khula-Light.ttf'),
        url('./fonts/Khula-Bold.ttf') format('ttf');
 }

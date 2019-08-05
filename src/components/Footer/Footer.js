@@ -6,7 +6,8 @@ function Footer() {
         <div className="footer-container">
             <p className="footer-msg">LEARN EVERY DAY</p>
             <div className="footer-bottom">       
-                <div className="icon-resources">Icon Resources
+                <div className="icon-resources">Resources
+                    <a href="https://unsplash.com/@beccatapert" title="Becca Tapert">Becca Tapert</a>
                     <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a>
                     <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
                     <a href="https://www.flaticon.com/authors/pixel-buddha" title="Pixel Buddha">Pixel Buddha</a> 

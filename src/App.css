@@ -18,7 +18,7 @@ a:focus {
 
 .anchor-pt {
   position:absolute;
-  top: var(--nav-ht);
+  top: -34px;
 }
 
 .sec-ttl {
@@ -39,4 +39,12 @@ a:focus {
 
 .sec-ttl__icon {
   height: 64px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media  (min-width: 768px) {
+  .anchor-pt {
+      top: -59px;
+  }
+  
 }

@@ -2,16 +2,16 @@ import React from 'react';
 
 function SvgMap(props) {
     const sml = <svg width="100%" height="100%">
-                    <line x1="64%" y1="55%" x2="85%" y2="69%" style={{"stroke": "#F3E9D2", "strokeWidth": "2", "strokeDasharray": "10"}} />
-                    <line x1="15%" y1="88%" x2="82%" y2="70%" style={{"stroke": "#F3E9D2", "strokeWidth": "2", "strokeDasharray": "10"}} />
+                    <line x1="37%" y1="34%" x2="84%" y2="48.5%" style={{"stroke": "#F3E9D2", "strokeWidth": "2", "strokeDasharray": "10"}} />
+                    <line x1="12%" y1="76%" x2="84%" y2="49%" style={{"stroke": "#F3E9D2", "strokeWidth": "2", "strokeDasharray": "10"}} />
                 </svg>
     const med = <svg width="100%" height="100%">
-                    <line x1="51%" y1="57%" x2="71%" y2="72%" style={{"stroke": "#F3E9D2", "strokeWidth": "2", "strokeDasharray": "10"}} />
-                    <line x1="21%" y1="91%" x2="72%" y2="73%" style={{"stroke": "#F3E9D2", "strokeWidth": "2", "strokeDasharray": "10"}} />
+                    <line x1="50%" y1="36%" x2="78%" y2="54%" style={{"stroke": "#F3E9D2", "strokeWidth": "2", "strokeDasharray": "10"}} />
+                    <line x1="22%" y1="76%" x2="78%" y2="55%" style={{"stroke": "#F3E9D2", "strokeWidth": "2", "strokeDasharray": "10"}} />
                 </svg>;
     const lg = <svg width="100%" height="100%">
-                    <line x1="70%" y1="58%" x2="81%" y2="71%" style={{"stroke": "#F3E9D2", "strokeWidth": "2", "strokeDasharray": "10"}} />
-                    <line x1="41%" y1="87%" x2="81%" y2="73%" style={{"stroke": "#F3E9D2", "strokeWidth": "2", "strokeDasharray": "10"}} />
+                    <line x1="47%" y1="35%" x2="69%" y2="55%" style={{"stroke": "#F3E9D2", "strokeWidth": "2", "strokeDasharray": "10"}} />
+                    <line x1="24%" y1="76%" x2="70%" y2="55%" style={{"stroke": "#F3E9D2", "strokeWidth": "2", "strokeDasharray": "10"}} />
                </svg> ;
         
         
