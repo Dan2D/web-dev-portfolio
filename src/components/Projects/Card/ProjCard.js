@@ -15,7 +15,10 @@ function ProjCard(props) {
   }
 
     return (
-      <div className="projCard-container" tabIndex="0" data-pos={props.pos} onClick={(e) => clickHandler(e)}>
+      <div 
+      className="projCard-container" 
+      tabIndex="0" 
+      data-pos={props.pos} onClick={(e) => clickHandler(e)}>
         <Icon icon={props.name} />
         <Display desktop={`${props.name}-desktop`} mobile={`${props.name}-mobile`} />
         <InfoSec

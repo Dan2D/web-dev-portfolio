@@ -11,7 +11,11 @@ function Projects(props) {
         <div className="projects-container" >
             <div className="anchor-pt" id="projects"/>
             <SectionTtl name="projects" title="PROJECTS" icon="backpack"/>
-            <div className="proj-cards">
+            <div className="proj-cards" 
+                  data-aos="fade-down" 
+                  data-aos-delay="200" 
+                  data-aos-duration="700" 
+                  data-aos-once="true">
             <LazyLoad height={200} offset={-200}>
             <ProjCard 
              pos="1"
@@ -32,7 +36,7 @@ function Projects(props) {
                 liveSite="https://dan2d.github.io/react-best-selling-books/"
                 github="https://github.com/Dan2D/react-best-selling-books" 
                 figma="https://www.figma.com/file/C3Q0bqK7WoNUqkMlgVrKiMZp/Best-Selling-Books-App?node-id=0%3A1"
-                tools={["HTML5", "CSS3", "Javascript", "React.js"]}
+                tools={["HTML5", "CSS3", "Javascript", "React.js", "React Redux", "React Router"]}
                 design={["Photoshop", "Figma"]}
                 purpose={projTxt.books.purpose}
                 notes={projTxt.books.notes}

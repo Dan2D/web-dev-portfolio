@@ -31,8 +31,10 @@ class Contact extends Component {
     let template_id = "contact_form";
     emailjs.send(service_id, template_id, template_params, "user_ixUjNyUv7809hblRhdUc2" );
     this.setState({user_name: "", user_email: "", subject: "", msg: ""});
-    document.getElementById("msg-modal").className = "msg-modal visible";
-    setTimeout(() => {document.getElementById("msg-modal").className = "msg-modal"}, 500);
+    if (template_params.text.length > 0){
+      document.getElementById("msg-modal").className = "msg-modal visible";
+      setTimeout(() => {document.getElementById("msg-modal").className = "msg-modal"}, 500);
+    }
   };
 
   render() {
@@ -41,7 +43,14 @@ class Contact extends Component {
           <div id="msg-modal" className="msg-modal">Message Sent!</div>
         <div className="anchor-pt" id="contact" />
         <SectionTtl name="connect" title="CONNECT" icon="journal" />
-        <form className="contact-form" id="contact-form" onSubmit={(e) => this.handleSubmit(e)}>
+        <form 
+        className="contact-form"
+        id="contact-form" 
+        data-aos="fade-up" 
+        data-aos-delay="300" 
+        data-aos-duration="500" 
+        data-aos-once="true"
+        onSubmit={(e) => this.handleSubmit(e)}>
           <input type="hidden" name="contact_number" />
           <div className="form-group">
             <label className="form-label" for="user_name" htmlFor="user_name">

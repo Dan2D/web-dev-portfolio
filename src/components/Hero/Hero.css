@@ -32,6 +32,25 @@ svg {
     text-align: left;
 }
 
+.contact-msg {
+    display: none;
+    position: absolute;
+    top: 137px;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    width: 40vw;
+    max-width: 275px;
+    z-index: 5;
+}
+
+.contact-msg:focus {
+    display: flex;
+}
+
 .trail {
     position: relative;
 }

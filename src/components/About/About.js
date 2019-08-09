@@ -13,11 +13,15 @@ function About(props) {
       }
     return (
 
-        <div className="about-container">
+        <div className="about-container ">
             <div className="anchor-pt" id="about" />
             <SectionTtl name="about" title="ABOUT" icon="climber" />
             <div className="about-content">
-                <div className="about-text">
+                <div 
+                className="about-text" 
+                data-aos="fade-up" 
+                data-aos-delay="300" 
+                data-aos-once="true">
                     <p className="about-text__blurb">
                     Hi, I’m Dan Schultz, a web developer based in Seattle, WA.
                     I'm a Front-End Engineer with experience with Back-End and UX/UI Design.

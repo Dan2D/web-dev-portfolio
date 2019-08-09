@@ -16,7 +16,7 @@ class Hero extends Component {
         smoothscroll.polyfill();
         this.dscrptChange();
         this.adjustComps();
-        window.addEventListener('resize', this.adjustComps)
+        window.addEventListener('resize', this.adjustComps);
      }
 
     adjustComps = () => {
@@ -34,26 +34,40 @@ class Hero extends Component {
 
      scrollTo = (e) => {
         e.preventDefault();
-          let id = e.currentTarget.getAttribute('href');
-          setTimeout(() => {document.querySelector(id).scrollIntoView({block: 'start', behavior: 'smooth'})}, 1500);
+        let time = e.target.className === "contact-msg__btn" ? 500 : 1500;
+        let id = e.currentTarget.getAttribute('href');
+        setTimeout(() => {document.querySelector(id).scrollIntoView({block: 'start', behavior: 'smooth'})}, time);
       }
     
     dscrptChange = () => {
         let wordArr = ["Designer", "Back-End Engineer", "Web Developer"];
         let i = 0;
-        setInterval(() => {
-            if (i >= wordArr.length) return;
-            this.setState({descriptor: wordArr[i]})
-            i++;
-        },  1900);
+        setTimeout(() => {setInterval(() => {
+                if (i >= wordArr.length) return;
+                this.setState({descriptor: wordArr[i]})
+                i++;
+            },  1900);}, 
+        500);
     }
 
     
     render(){
         return (
-            <div className="hero-container" id="home">
-                <h1 className="hero__intro">Hi, I'm Dan <br/> {this.state.descriptor}</h1>
-                <div className="trail">
+            <div className="hero-container" id="home" >
+                <h1 
+                className="hero__intro" 
+                data-aos="fade-right" 
+                data-aos-delay="300" 
+                data-aos-duration="700" 
+                data-aos-once="true">
+                    Hi, I'm Dan <br/> {this.state.descriptor}
+                </h1>
+                <div 
+                className="trail" 
+                data-aos="fade-down" 
+                data-aos-delay="300" 
+                data-aos-duration="700"
+                data-aos-once="true">
                     <img className="trail__img" src={require(`../../images/hero-bg${this.state.size}.jpg`)} alt="mt. rainier" />
                     <img className="trail__flag" src={require(`../../images/Flag${this.state.size}.png`)} alt="flag"/>
                     <a href="#contact" className="trail__btn trail__btn--connect" onClick={(e) => this.scrollTo(e)} aria-label="contact section">
