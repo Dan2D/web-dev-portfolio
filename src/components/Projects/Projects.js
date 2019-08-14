@@ -33,8 +33,8 @@ function Projects(props) {
                 pos="2"
                 title="Best Selling Books" 
                 name="books"
-                liveSite="https://dan2d.github.io/react-best-selling-books/"
-                github="https://github.com/Dan2D/react-best-selling-books" 
+                liveSite="https://dan2d.github.io/best-selling-books/"
+                github="https://github.com/Dan2D/best-selling-books" 
                 figma="https://www.figma.com/file/C3Q0bqK7WoNUqkMlgVrKiMZp/Best-Selling-Books-App?node-id=0%3A1"
                 tools={["HTML5", "CSS3", "Javascript", "React.js", "React Redux", "React Router"]}
                 design={["Photoshop", "Figma"]}
