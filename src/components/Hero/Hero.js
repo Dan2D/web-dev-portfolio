@@ -19,6 +19,10 @@ class Hero extends Component {
         window.addEventListener('resize', this.adjustComps);
      }
 
+     componentWillUnmount(){
+        window.removeEventListener('resize', this.adjustComps);
+     }
+
     adjustComps = () => {
         let width = window.innerWidth;
         if (width < 481){

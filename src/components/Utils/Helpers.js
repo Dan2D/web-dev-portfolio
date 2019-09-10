@@ -1,3 +1,4 @@
+import React from 'react';
 import $ from "jquery";
 
 export const setNewScroll = () => {
@@ -30,4 +31,19 @@ export const setNewScroll = () => {
   }
 })
 }, 500)
+}
+
+export const removeScroll = () => {
+  $(window).off('scroll');
+}
+
+export const mapIcons = (arr) => {
+  return arr.map((icon, indx) => {
+      return (
+          <div className="proj-icon" key={icon + "-" + indx}>
+              <img src={require(`../../images/icons/skills/${icon}_Logo.png`)} alt={icon} />
+              <p>{icon}</p>
+          </div>
+      )
+  })
 }

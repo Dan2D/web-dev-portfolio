@@ -6,6 +6,7 @@
   "dependencies": {
     "emailjs-com": "^2.3.2",
     "jquery": "^3.4.1",
+    "query-string": "^6.8.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-lazyload": "^2.6.2",

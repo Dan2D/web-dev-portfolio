@@ -26,7 +26,7 @@ function About(props) {
                     Hi, I’m Dan Schultz, a web developer based in Seattle, WA.
                     I'm a Front-End Engineer with experience with Back-End and UX/UI Design.
                     I love to create sites and applications with a focus on creativity and efficiency.
-                    When I’m not programming I like to camp, go on runs, play board games/DnD, and digitally paint. 
+                    I try to learn something new everyday so I can make bigger and better things! 
                     <br/><br/>
                     Feel free to <a className="contact-link" href="#contact" onClick={(e) => scrollTo(e)}>contact me</a> if you need any help on your next creative project!
                     </p>
@@ -46,7 +46,6 @@ function About(props) {
                     />
                 </div>
                 </LazyLoad>
-                
                 <div className="about-links">
                     <a className="link-icon" href="https://github.com/Dan2D">
                         <img src={require('../../images/icons/Github_Logo.png')} alt="github" />
