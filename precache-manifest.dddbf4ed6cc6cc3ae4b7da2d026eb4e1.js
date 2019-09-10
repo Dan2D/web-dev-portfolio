@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "007fce654c85019f04ed0e0ca95e11de",
+    "revision": "ee2b77ad596dc7373c56228a111677be",
     "url": "/index.html"
   },
   {
-    "revision": "0ebacb389780165b95c7",
-    "url": "/static/css/main.a04a2081.chunk.css"
+    "revision": "edf6298791e9b1daef17",
+    "url": "/static/css/main.448e3645.chunk.css"
   },
   {
-    "revision": "91be66659cd9e1d2a4ea",
-    "url": "/static/js/2.b1b340fc.chunk.js"
+    "revision": "257570570267e2fff3c0",
+    "url": "/static/js/2.92efe09a.chunk.js"
   },
   {
-    "revision": "0ebacb389780165b95c7",
-    "url": "/static/js/main.628b95cd.chunk.js"
+    "revision": "edf6298791e9b1daef17",
+    "url": "/static/js/main.a40fcf92.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/React.js_Logo.0c82ece3.png"
   },
   {
-    "revision": "6beec3a703dfd12e8d2561fbb601126d",
-    "url": "/static/media/Web-Developer-Resume-Dan-Schultz-2019.6beec3a7.png"
+    "revision": "6d425b5bbf15d292a895299a85ba06ea",
+    "url": "/static/media/Web-Developer-Resume-Dan-Schultz-2019.6d425b5b.png"
   },
   {
     "revision": "cef05e36bb8504a210bc0f23449014e6",
@@ -50,6 +50,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "50ea17738c7a2db1c3e79df288abe694",
     "url": "/static/media/books-mobile-lg.50ea1773.jpg"
+  },
+  {
+    "revision": "fff61d8d6feaa7e42bbdeec908a692cd",
+    "url": "/static/media/game-desktop-lg.fff61d8d.jpg"
+  },
+  {
+    "revision": "6ddb97f9d3ad17f2f16ca2df1fe09ad6",
+    "url": "/static/media/game-desktop.6ddb97f9.jpg"
+  },
+  {
+    "revision": "8022af39268836706be1b22fb23aefde",
+    "url": "/static/media/game-mobile-lg.8022af39.jpg"
+  },
+  {
+    "revision": "340147ed1a09457079fb8a5591149f40",
+    "url": "/static/media/game.340147ed.png"
   },
   {
     "revision": "494ea864000704cb20d592b6a777047c",
