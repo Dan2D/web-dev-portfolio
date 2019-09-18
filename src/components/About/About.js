@@ -37,7 +37,7 @@ function About(props) {
                     <SkillsCard
                     name="programming" 
                     title="PROGRAMMING" 
-                    skills={["HTML5", "CSS3", "Javascript", "jQuery", "React.js", "React Redux", "React Router", "Nodejs", "MongoDB", "Git", "Webpack", "Bootstrap"]}
+                    skills={["HTML5", "CSS3", "SASS", "Javascript", "jQuery", "React.js", "React Redux", "React Router", "Nodejs", "MongoDB", "Git", "Webpack", "Bootstrap"]}
                     />
                     <SkillsCard
                     name="design" 

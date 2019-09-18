@@ -44,4 +44,15 @@ export const projTxt = {
         tools: ["HTML5", "CSS3", "SASS", "Javascript", "React.js", "React Redux", "React Router"],
         design: ["Photoshop", "Figma"]
     },
+    adventure: {
+        purpose: ["Outdoor Adventures! A Business site helping people get out and explore the great outdoors"],
+        notes: ["Local Business Site made with design feedback from client", "Custom animations with unique and immersive designs", "Responsive styling with SASS/CSS"],
+        links: {
+            liveSite: "https://dan2d.github.io/outdoor-adventures/#/",
+                github: "https://github.com/Dan2D/outdoor-adventures" ,
+                figma: "https://www.figma.com/file/oJeWhqgeXpRZB7wn87U3gG/Business-Mock?node-id=0%3A1"
+        },
+        tools: ["HTML5", "CSS3", "SASS", "Javascript", "React.js", "Bootstrap"],
+        design: ["Photoshop", "Figma"]
+    },
 }

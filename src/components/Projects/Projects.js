@@ -25,6 +25,12 @@ function Projects(props) {
                   data-aos-once="true">
             <LazyLoad height={200} offset={-200}>
             <ProjCard 
+                title="Outdoor Adventures" 
+                name="adventure" 
+                design={["Photoshop", "Figma"]}
+                purpose={projTxt.adventure.purpose}
+                />
+            <ProjCard 
                 title="Board Game Bound" 
                 name="game" 
                 design={["Photoshop", "Figma"]}

@@ -103,6 +103,11 @@
     background: rgb(101, 210, 167);
 }
 
+.card-icon--adventure,
+.card-icon--adventure-lg {
+    background: #b5b170;
+}
+
 .proj-lnk {
     position: absolute;
     display: flex;
