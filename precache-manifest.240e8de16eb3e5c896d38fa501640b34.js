@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1a708b33ba60fc1ff0f489bfef11f63",
+    "revision": "8bb0371132eef8dd99f2f7d5fa5877c9",
     "url": "/index.html"
   },
   {
-    "revision": "0db4eb59f48a8a79912f",
-    "url": "/static/css/main.e8e757cf.chunk.css"
+    "revision": "03454b42c7d897acb256",
+    "url": "/static/css/main.59e81021.chunk.css"
   },
   {
     "revision": "d6b744db3cb059fc7525",
     "url": "/static/js/2.8a517b2d.chunk.js"
   },
   {
-    "revision": "0db4eb59f48a8a79912f",
-    "url": "/static/js/main.c09ab4bf.chunk.js"
+    "revision": "03454b42c7d897acb256",
+    "url": "/static/js/main.fecac2c9.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -40,16 +40,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Web-Developer-Resume-Dan-Schultz-2019.6d425b5b.png"
   },
   {
-    "revision": "01197572dd6da61d6da82e3084bbaae2",
-    "url": "/static/media/adventure-desktop-lg.01197572.jpg"
+    "revision": "ec7a9a2b4be84cef8adcd91b5bc49e01",
+    "url": "/static/media/adventure-desktop-lg.ec7a9a2b.jpg"
   },
   {
-    "revision": "c5c838fb8bd35de575e8f6bd02a7ca14",
-    "url": "/static/media/adventure-desktop.c5c838fb.jpg"
+    "revision": "abff5e598f403b8157ed77945c2d5d15",
+    "url": "/static/media/adventure-desktop.abff5e59.jpg"
   },
   {
-    "revision": "96b54560edef3a774a1ae91da723ca23",
-    "url": "/static/media/adventure-mobile-lg.96b54560.jpg"
+    "revision": "9315af1d606a0c8a1e354b1f6a71cafc",
+    "url": "/static/media/adventure-mobile-lg.9315af1d.jpg"
+  },
+  {
+    "revision": "a50df69601677663d0a0487d5a4c2eab",
+    "url": "/static/media/adventure-mobile.a50df696.jpg"
   },
   {
     "revision": "cef05e36bb8504a210bc0f23449014e6",
