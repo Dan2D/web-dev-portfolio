@@ -62,6 +62,7 @@ class Hero extends Component {
                     <div className="parallax-container" >
                         <Plx className='hero__mtn hero__mtn--bg' parallaxData={this.state.parallax ? parallaxBg : []} >
                             <SVG className='hero__mtn-svg' src={require("../../images/mtn-background.svg")} preserveAspectRatio="xMidYMin slice" />
+                            <SVG className='hero__mtn-svg svg-animate' src={require("../../images/mtn-background-animate.svg")} style={{position: 'absolute', left: '0'}} preserveAspectRatio="xMidYMin slice" />
                         </Plx>
                         <Plx className='hero__mtn hero__mtn--base' parallaxData={this.state.parallax  ? parallaxBase : []} >
                             <SVG className='hero__mtn-svg' src={require("../../images/mtn-base.svg")} preserveAspectRatio="xMidYMin slice" />

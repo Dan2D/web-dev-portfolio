@@ -33,7 +33,9 @@ function App() {
       window.removeEventListener('resize', setProps);
     }
   }, [])
-
+  if (window.innerWidth <= 481 && size !=='mobile'){
+    setSize('mobile');
+  }
   return (
     <Router>
       <div className="App">
