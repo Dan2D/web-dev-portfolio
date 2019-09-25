@@ -2,10 +2,9 @@
     --nav-ht: 6vh;
   }
 .hero-container {
-    padding-top: var(--nav-ht);
+    padding-top: 35px;
     position: relative;
     width: 100vw;   
-    padding-bottom: 10vh;
     background: #231f1c;
 }
 
@@ -15,12 +14,26 @@ button {
     border: none;
 }
 
-svg {
+.parallax-container {
+    position: relative;
+    min-height: 800px;
+    height: 100vh;
+    max-height: 1000px;
+    min-width: 100vw;
+    overflow: hidden;
+}
+
+.hero__mtn {
     position: absolute;
-    z-index: 1;
-    bottom: 0%;
-    left: 0%;
-    z-index: 0;
+    top: auto;
+    left: auto;
+    bottom: 0;
+}
+
+.hero__mtn-svg {
+    width: 100vw;
+    min-width: 500px;
+    visibility: visible !important;
 }
 
 .hero__intro {

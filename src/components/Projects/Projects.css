@@ -4,6 +4,7 @@
 
 .projects-container {
     position: relative;
+    height: 2050px;
     width:100vw;
     display: flex;
     flex-direction: column;
@@ -219,5 +220,24 @@
     }
     100% {
         transform: rotate(0deg);
+    }
+}
+
+
+@media only screen and (min-width: 620px) {
+    .projects-container {
+        height: 1330px;
+    }
+}
+
+@media only screen and (min-width: 930px) {
+    .projects-container {
+        height: 955px;
+    }
+}
+
+@media only screen and (min-width: 1550px) {
+    .projects-container {
+        height: 566px;
     }
 }
