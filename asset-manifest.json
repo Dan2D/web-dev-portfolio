@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.e1e7af33.chunk.css",
-    "main.js": "/static/js/main.2a3e8bae.chunk.js",
-    "main.js.map": "/static/js/main.2a3e8bae.chunk.js.map",
+    "main.js": "/static/js/main.2fc069f3.chunk.js",
+    "main.js.map": "/static/js/main.2fc069f3.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.21b9901e.chunk.js": "/static/js/2.21b9901e.chunk.js",
     "static/js/2.21b9901e.chunk.js.map": "/static/js/2.21b9901e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e2bedf1891b5420a588022a73039bc17.js": "/precache-manifest.e2bedf1891b5420a588022a73039bc17.js",
+    "precache-manifest.a8320bd9f683df882072c31291d15071.js": "/precache-manifest.a8320bd9f683df882072c31291d15071.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e1e7af33.chunk.css.map": "/static/css/main.e1e7af33.chunk.css.map",
     "static/media/index.css": "/static/media/Khula-Light.1e35bfe4.ttf",
