@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a59170d6ad3154efdcac78ba670f12d",
+    "revision": "7056f4f8633d624df9deddd43f4422ee",
     "url": "/index.html"
   },
   {
-    "revision": "324a7ec4c4d73b6e7812",
-    "url": "/static/css/main.e1e7af33.chunk.css"
+    "revision": "f30bc41ce5340f3f9bd8",
+    "url": "/static/css/main.bb4dccd7.chunk.css"
   },
   {
-    "revision": "6884dd28e29d05a3b7ca",
-    "url": "/static/js/2.21b9901e.chunk.js"
+    "revision": "478c4a10c51b9155cc17",
+    "url": "/static/js/2.f8cf0b6c.chunk.js"
   },
   {
-    "revision": "324a7ec4c4d73b6e7812",
-    "url": "/static/js/main.2fc069f3.chunk.js"
+    "revision": "f30bc41ce5340f3f9bd8",
+    "url": "/static/js/main.910f1e84.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -80,8 +80,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/game.340147ed.png"
   },
   {
-    "revision": "80f907c6e23ad18e205da66cf008bd5f",
-    "url": "/static/media/mtn-background.80f907c6.svg"
+    "revision": "cd0050fa727a01e8675518efff27dccf",
+    "url": "/static/media/mtn-background-animate.cd0050fa.svg"
+  },
+  {
+    "revision": "080b86ea12d93d10752c253f46e33c1c",
+    "url": "/static/media/mtn-background.080b86ea.svg"
   },
   {
     "revision": "f1a5ec322c554e8edbe237c8b694c93a",
