@@ -50,7 +50,7 @@ function App() {
         <Route path="/" exact render={() => 
           <Fragment>
             <Nav size={size} page="home"/>
-            <Hero />
+            <Hero size={size} />
             <Projects />
             <About />
             <Contact />

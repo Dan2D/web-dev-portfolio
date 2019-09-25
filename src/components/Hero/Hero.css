@@ -152,6 +152,9 @@ button {
 
 
 @media only screen and (min-width: 481px) {
+    .hero__mtn {
+        transform: auto;
+    }
     .hero__intro {
         font-size: 5vw;
         top: 7%;

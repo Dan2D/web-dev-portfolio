@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {parallaxBg, parallaxBase, parallaxMg} from "../Utils/Helpers";
 import SVG from 'react-inlinesvg';
 import Plx from 'react-plx';
 import smoothscroll from 'smoothscroll-polyfill';
@@ -9,12 +10,16 @@ class Hero extends Component {
         super(props)
         this.state = {
             descriptor: "Front-End Engineer",
+            parallax: false
         }
     }
 
     componentDidMount(){
         smoothscroll.polyfill();
         this.dscrptChange();
+        if (window.innerWidth > 481){
+            this.setState({parallax: true})
+        }
      }
 
      scrollTo = (e) => {
@@ -37,60 +42,15 @@ class Hero extends Component {
 
     
     render(){
-        const parallaxData = [
-            {
-              start: 0,
-              end: '100vh',
-              properties: [
-                {
-                  startValue: 0,
-                  endValue: 400,
-                  property: 'translateY',
-                },
-              ],
-            },
-          ];
-          const parallaxBase = [
-            {
-              start: 0,
-              end: '100vh',
-              properties: [
-                {
-                  startValue: 0,
-                  endValue: 250,
-                  property: 'translateY',
-                },
-              ],
-            },
-          ];
-          const parallaxMg = [
-            {
-              start: 0,
-              end: '100vh',
-              properties: [
-                {
-                  startValue: 0,
-                  endValue: 100,
-                  property: 'translateY',
-                },
-              ],
-            },
-          ];
+        if (this.props.size !== 'mobile' && !this.state.parallax){
+            this.setState({parallax: true});
+        }
+        else if (this.props.size === 'mobile' && this.state.parallax){
+            this.setState({parallax: false})
+        }
         return (
             
                 <div className="hero-container" id="home" >
-                    <div className="parallax-container" >
-                        <Plx className='hero__mtn hero__mtn--bg' parallaxData={parallaxData} >
-                            <SVG className='hero__mtn-svg' src={require("../../images/mtn-background.svg")} preserveAspectRatio="xMidYMin slice" />
-                        </Plx>
-                        <Plx className='hero__mtn hero__mtn--base' parallaxData={parallaxBase} >
-                            <SVG className='hero__mtn-svg' src={require("../../images/mtn-base.svg")} preserveAspectRatio="xMidYMin slice" />
-                        </Plx>
-                        <Plx className='hero__mtn hero__mtn--mg' parallaxData={parallaxMg}>
-                            <SVG className='hero__mtn-svg' src={require("../../images/mtn-midground.svg")} preserveAspectRatio="xMidYMin slice" />   
-                        </Plx>    
-                            <SVG className='hero__mtn-svg hero__mtn hero__mtn--fg' src={require("../../images/mtn-foreground.svg")} preserveAspectRatio="xMidYMin slice" />
-                    </div>
                     <h1 
                     className="hero__intro" 
                     data-aos="fade-right" 
@@ -99,7 +59,18 @@ class Hero extends Component {
                     data-aos-once="true">
                         Hi I'm Dan, <br/> {this.state.descriptor}
                     </h1>
-
+                    <div className="parallax-container" >
+                        <Plx className='hero__mtn hero__mtn--bg' parallaxData={this.state.parallax ? parallaxBg : []} >
+                            <SVG className='hero__mtn-svg' src={require("../../images/mtn-background.svg")} preserveAspectRatio="xMidYMin slice" />
+                        </Plx>
+                        <Plx className='hero__mtn hero__mtn--base' parallaxData={this.state.parallax  ? parallaxBase : []} >
+                            <SVG className='hero__mtn-svg' src={require("../../images/mtn-base.svg")} preserveAspectRatio="xMidYMin slice" />
+                        </Plx>
+                        <Plx className='hero__mtn hero__mtn--mg' parallaxData={this.state.parallax  ? parallaxMg : []}>
+                            <SVG className='hero__mtn-svg' src={require("../../images/mtn-midground.svg")} preserveAspectRatio="xMidYMin slice" />   
+                        </Plx>    
+                            <SVG className='hero__mtn-svg hero__mtn hero__mtn--fg' src={require("../../images/mtn-foreground.svg")} preserveAspectRatio="xMidYMin slice" />
+                    </div>
                 </div>
             
         )

@@ -47,3 +47,43 @@ export const mapIcons = (arr) => {
       )
   })
 }
+
+export const parallaxBg = [
+  {
+    start: 0,
+    end: '100vh',
+    properties: [
+      {
+        startValue: 0,
+        endValue: 400,
+        property: 'translateY',
+      },
+    ],
+  },
+];
+export const parallaxBase = [
+  {
+    start: 0,
+    end: '100vh',
+    properties: [
+      {
+        startValue: 0,
+        endValue: 250,
+        property: 'translateY',
+      },
+    ],
+  },
+];
+export const parallaxMg = [
+  {
+    start: 0,
+    end: '100vh',
+    properties: [
+      {
+        startValue: 0,
+        endValue: 100,
+        property: 'translateY',
+      },
+    ],
+  },
+];
